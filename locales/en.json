@@ -1,0 +1,2785 @@
+{
+    "seo": {
+        "home": {
+            "title": "MLCompete - Machine Learning Competition Platform",
+            "description": "Evaluate your machine learning models and compete with others in exciting challenges. Join our community of data scientists and ML enthusiasts.",
+            "keywords": "machine learning, ML competition, data science, AI challenges, model evaluation"
+        },
+        "problems": {
+            "title": "Problems - MLCompete",
+            "description": "Explore and solve machine learning challenges. Test your models against real-world datasets and improve your skills."
+        },
+        "competitions": {
+            "title": "Competitions - MLCompete",
+            "description": "Join machine learning competitions and test your skills against other data scientists. Win prizes and climb the leaderboard."
+        },
+        "leaderboard": {
+            "title": "Leaderboard - MLCompete",
+            "description": "See the top competitors in machine learning challenges. Track your ranking and compare your performance."
+        },
+        "achievements": {
+            "title": "Achievements - MLCompete",
+            "description": "Earn achievements by solving problems and competing. Showcase your accomplishments and track your progress."
+        }
+    },
+    "common": {
+        "appName": "MLCompete",
+        "loading": "Loading...",
+        "loadingSettings": "Loading settings...",
+        "saving": "Saving...",
+        "error": "Error",
+        "success": "Success",
+        "retry": "Try again",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "close": "Close",
+        "continue": "Continue",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "pageOf": "Page {current} of {total}",
+        "na": "N/A",
+        "you": "You",
+        "selected": "selected",
+        "none": "none",
+        "latexCopied": "Formula copied",
+        "clickToCopyFormula": "Click to copy formula",
+        "copyCode": "Copy code",
+        "codeCopied": "Code copied"
+    },
+    "navigation": {
+        "problems": "Problems",
+        "competitions": "Competitions",
+        "institutions": "Institutions",
+        "counties": "Counties",
+        "leaderboard": "Leaderboard",
+        "articles": "Articles",
+        "myWriting": "My writing",
+        "myProblemProposals": "My problem proposals",
+        "myCompetitions": "My hosted competitions",
+        "achievements": "Achievements",
+        "roadmap": "Learning Roadmap",
+        "profile": "Profile",
+        "settings": "Settings",
+        "myQuestions": "My Questions",
+        "myRecentSubmissions": "My Recent Submissions",
+        "logout": "Sign out",
+        "login": "Sign in"
+    },
+    "articles": {
+        "metaTitle": "Articles and editorials - MLCompete",
+        "metaDescription": "Read practical machine learning articles, competition insights, and solution editorials written by the MLCompete community.",
+        "eyebrow": "Community knowledge",
+        "title": "Ideas worth putting into practice",
+        "description": "Deep explanations, practical techniques, and thoughtful editorials from people who solve machine learning problems.",
+        "count": "Published",
+        "featured": "Start here",
+        "kinds": {
+            "general": "Article",
+            "problemEditorial": "Problem editorial"
+        },
+        "authors": "Written by",
+        "authorFallback": "MLCompete contributor",
+        "published": "Published",
+        "linkedProblem": "For problem",
+        "readArticle": "Read article",
+        "tableOfContents": "In this article",
+        "home": {
+            "eyebrow": "Latest from the community",
+            "title": "Learn from how others think",
+            "description": "A new place for rigorous explanations, reusable techniques, and editorials that make difficult problems feel approachable.",
+            "viewAll": "Explore all articles",
+            "emptyTitle": "The first useful explanation can start with you",
+            "emptyDescription": "Share a technique that worked, unpack a difficult problem, or document the lesson you wish you had found earlier.",
+            "contributeEyebrow": "Built by the community",
+            "contributeTitle": "Found a useful approach? Share it.",
+            "contributeDescription": "Publish an article or editorial, or turn a strong machine learning idea into a complete challenge for other participants.",
+            "writeArticle": "Write an article or editorial",
+            "reviewNote": "Articles and problem proposals are published only after review."
+        },
+        "pagination": {
+            "label": "Article pages",
+            "previous": "Previous page",
+            "next": "Next page",
+            "page": "Page {page} of {pages}"
+        },
+        "empty": {
+            "title": "The first article is being written",
+            "description": "Fresh explanations and editorials will appear here as soon as they are published."
+        },
+        "error": {
+            "title": "The library could not be loaded",
+            "description": "The articles are temporarily unavailable. Please try again in a moment.",
+            "retry": "Try again"
+        },
+        "editorialOpportunities": {
+            "eyebrow": "For problems you authored",
+            "title": "Turn your problems into lasting explanations",
+            "description": "See which of your published problems still need an editorial and revisit the explanations already shared with the community.",
+            "total": "{count, plural, one {# published problem} other {# published problems}}",
+            "loading": "Loading your published problems",
+            "without": {
+                "title": "Waiting for an editorial",
+                "description": "These problems do not have a published editorial yet.",
+                "count": "{count, plural, one {# problem without an editorial} other {# problems without an editorial}}",
+                "empty": "Every published problem attributed to you already has an editorial."
+            },
+            "with": {
+                "title": "Editorial published",
+                "description": "Your problems that already have at least one published editorial.",
+                "count": "{count, plural, one {# problem with an editorial} other {# problems with an editorial}}",
+                "empty": "Your first published editorial will appear here."
+            },
+            "writeEditorial": "Write editorial",
+            "writeFor": "Write an editorial for {title}",
+            "openProblem": "Open problem {title}",
+            "showAll": "Show all {count}",
+            "showLess": "Show fewer",
+            "empty": {
+                "title": "No published problems are attributed to you yet",
+                "description": "When a published problem credits your platform account as an author, it will appear here automatically."
+            },
+            "error": {
+                "title": "Your problems could not be loaded",
+                "description": "This personalized section is temporarily unavailable. The article library is still available below.",
+                "retry": "Try again"
+            }
+        },
+        "detail": {
+            "errorTitle": "This article could not be loaded",
+            "errorDescription": "The article is temporarily unavailable. Please try again.",
+            "backToArticles": "All articles",
+            "relatedProblem": "Put it into practice",
+            "problemAuthor": "Problem author",
+            "problemAuthors": "Problem created by {names}",
+            "viewProblem": "Open problem",
+            "solution": {
+                "eyebrow": "Author's evaluated submission",
+                "sharedWithConsent": "Shared by the author",
+                "title": "Solution source",
+                "submission": "Submission #{id}",
+                "score": "Score: {value}",
+                "metric": "Metric: {value}",
+                "fileFallback": "Source file",
+                "viewSource": "View source",
+                "hideSource": "Hide source",
+                "download": "Download",
+                "downloadOnly": "This file cannot be previewed safely in the browser. You can still download the original.",
+                "previewTitle": "Source preview",
+                "copy": "Copy source",
+                "copied": "Copied",
+                "loading": "Loading the source...",
+                "previewUnavailableTitle": "The preview is unavailable",
+                "errors": {
+                    "binary": "This file is not plain UTF-8 text. Download the original to inspect it locally.",
+                    "tooLarge": "This file is larger than the 512 KB preview limit. Download the original to inspect it locally.",
+                    "unavailable": "The source could not be loaded right now. The original download may still be available."
+                },
+                "notebook": {
+                    "codeCell": "Code cell {number}",
+                    "markdownCell": "Markdown cell {number}",
+                    "emptyCell": "Empty cell"
+                }
+            }
+        },
+        "breadcrumbs": {
+            "home": "Home"
+        },
+        "profile": {
+            "eyebrow": "Published work",
+            "title": "Articles by this contributor",
+            "count": "{count, plural, one {# article} other {# articles}}",
+            "viewAll": "View all articles by this contributor",
+            "listLabel": "Published articles",
+            "writeArticle": "Write an article",
+            "startWriting": "Start writing",
+            "emptyOwnTitle": "Your byline starts here",
+            "emptyOwnDescription": "Share a useful technique or explain a problem you know well. Your first published article unlocks the beginning of your writing journey.",
+            "journey": {
+                "eyebrow": "Writing journey",
+                "title": "Knowledge shared",
+                "count": "{earned} of {total} writing milestones earned",
+                "articlePath": "Article path",
+                "editorialPath": "Editorial path",
+                "nextMilestone": "Next milestone",
+                "highestMilestone": "Highest milestone earned",
+                "pathComplete": "Path complete",
+                "earned": "Earned",
+                "progress": "{current} of {target}",
+                "viewAchievements": "Explore all achievements"
+            }
+        },
+        "problem": {
+            "eyebrow": "Community guidance",
+            "title": "Editorials and related articles",
+            "description": "Explore different approaches, implementation details, and lessons contributed for this problem.",
+            "viewAll": "View all articles for this problem"
+        }
+    },
+    "writing": {
+        "eyebrow": "Contributor workspace",
+        "title": "Turn your work into shared knowledge",
+        "description": "Draft, preview, and submit articles for review in one focused writing space. Your work stays private until the editorial team approves it.",
+        "newArticle": "New article",
+        "stats": {
+            "total": "Total",
+            "inReview": "In review",
+            "inReviewPage": "In review here",
+            "published": "Published",
+            "page": "of {total} pages"
+        },
+        "library": {
+            "title": "Your articles",
+            "description": "Continue a draft or follow its editorial review."
+        },
+        "empty": {
+            "title": "Your writing desk is ready",
+            "description": "Start with an explanation, a reusable technique, or a clear editorial for a problem you know well.",
+            "action": "Create the first draft"
+        },
+        "untitled": "Untitled draft",
+        "noExcerpt": "No excerpt yet",
+        "updated": "Updated {date}",
+        "kinds": {
+            "GENERAL": "General article",
+            "PROBLEM_EDITORIAL": "Problem editorial"
+        },
+        "publicationStatus": {
+            "DRAFT": "Draft",
+            "PUBLISHED": "Published",
+            "ARCHIVED": "Archived"
+        },
+        "reviewStatus": {
+            "PENDING": "Review requested",
+            "CHANGES_REQUESTED": "Changes requested",
+            "APPROVED": "Approved",
+            "REJECTED": "Not approved",
+            "CANCELLED": "Request cancelled"
+        },
+        "access": {
+            "title": "Your contributor access is not active yet",
+            "description": "Writing is available to invited contributors. Open the invitation link sent to your email to activate this workspace."
+        },
+        "error": {
+            "title": "Your writing could not be loaded",
+            "description": "The contributor workspace is temporarily unavailable. Please try again.",
+            "retry": "Try again"
+        },
+        "editorialPreselection": {
+            "title": "This problem is not available for an editorial right now",
+            "description": "It may no longer be public, or its details could not be loaded. We kept you out of the general article form so you do not start the wrong type of draft.",
+            "retry": "Try loading it again",
+            "back": "Back to articles"
+        },
+        "editor": {
+            "back": "Back to my writing",
+            "editEyebrow": "Editing article",
+            "newEyebrow": "New draft",
+            "untitledTitle": "Untitled article",
+            "unsaved": "Unsaved changes",
+            "saved": "All changes saved",
+            "reviewLockedTitle": "This version is being reviewed.",
+            "reviewLockedDescription": "Cancel the review request if you need to make another change before the editors respond.",
+            "changesRequestedTitle": "The editorial team requested changes.",
+            "changesRequestedDescription": "Review the feedback, revise the article, then resubmit it.",
+            "rejectedTitle": "This review request was not approved.",
+            "rejectedDescription": "Review the editorial decision, revise the article, and submit a new request when it is ready.",
+            "archivedTitle": "This article is archived.",
+            "archivedDescription": "Archived articles are read-only and cannot be submitted for another review.",
+            "save": "Save draft",
+            "preview": "Refresh preview",
+            "submit": "Submit for review",
+            "resubmit": "Resubmit changes",
+            "cancelRequest": "Cancel request",
+            "requestDelete": "Request deletion",
+            "writeTab": "Write",
+            "previewTab": "Preview",
+            "previewEmpty": "Write some Markdown, then refresh the preview.",
+            "previewLoading": "Rendering the current version...",
+            "previewUnavailable": "The current version could not be rendered. Refresh the preview to try again.",
+            "wordCount": "{count, plural, one {# word} other {# words}}"
+        },
+        "fields": {
+            "title": {
+                "label": "Title",
+                "placeholder": "A precise, useful title"
+            },
+            "excerpt": {
+                "label": "Short introduction",
+                "placeholder": "What will readers understand or be able to do?"
+            },
+            "kind": {
+                "label": "Article type"
+            },
+            "language": {
+                "label": "Article language",
+                "help": "Choose the language used in the title and article body. It becomes part of the article's search identity after publication."
+            },
+            "problem": {
+                "label": "Problem",
+                "placeholder": "Choose a problem",
+                "searchPlaceholder": "Search by problem title...",
+                "searchLabel": "Search problems",
+                "searching": "Searching problems...",
+                "searchError": "Problems could not be loaded. Try again.",
+                "retry": "Try again",
+                "noResults": "No matching problems found.",
+                "yourProblems": "Your problems",
+                "otherProblems": "Other problems",
+                "authoredByYou": "You are an author",
+                "authorNames": "Authors: {names}",
+                "help": "Editorials are linked to this problem after publication. The link cannot be changed later."
+            },
+            "solution": {
+                "title": "Share a submitted solution (optional)",
+                "description": "Choose one of your evaluated submissions for this problem. If the article is approved, readers can view and download its source file.",
+                "remove": "Remove solution",
+                "loading": "Loading your evaluated submissions...",
+                "error": "Your submissions could not be loaded. Your draft is safe; try again when you are ready.",
+                "retry": "Try again",
+                "emptyTitle": "No evaluated source file is ready to share",
+                "emptyDescription": "Submit and evaluate a solution with a source file for this problem, then return to attach it. You can also publish the editorial without one.",
+                "listLabel": "Evaluated submissions available to share",
+                "submission": "Submission #{id}",
+                "recommended": "Best result",
+                "evaluated": "Evaluated",
+                "statuses": {
+                    "PROCESSING": "Processing",
+                    "EVALUATED": "Evaluated",
+                    "ERROR": "Evaluation error"
+                },
+                "score": "Score: {value}",
+                "metric": "Metric: {value}",
+                "sourceUnavailable": "No source file",
+                "notEvaluated": "Not evaluated yet",
+                "consent": "I agree to publish submission #{id}, including its source code, evaluated score and metric, submission date, and ID. Anyone can view these details and download the source with this article.",
+                "consentHelp": "These details become public only if the editorial team approves this version. Choosing a submission does not grant consent automatically.",
+                "consentOwnerOnly": "Consent can be changed only by the submission owner while the solution is eligible to share. Other article editors may preserve or remove the attachment."
+            },
+            "slug": {
+                "label": "Web address",
+                "placeholder": "generated-from-the-title",
+                "help": "Optional. Use lowercase words separated by hyphens, or leave it blank to generate one."
+            },
+            "markdown": {
+                "label": "Article body",
+                "placeholder": "Start with the central idea, then build the explanation step by step...",
+                "help": "Write visually or switch to Markdown for precise control. Code blocks, links, tables, images, lists, and LaTeX formulas are supported."
+            }
+        },
+        "images": {
+            "help": "PNG or JPEG, up to {size} MB each and {count} images in the editable version. Images retained only for the published version do not use a slot.",
+            "quota": "{used}/{total} images",
+            "uploading": "Uploading {count}...",
+            "listLabel": "Images uploaded to this article",
+            "item": "Image {number}",
+            "publishedOnly": "Published version",
+            "publishedOnlyHelp": "This image is kept for the currently published article and does not use an editable image slot.",
+            "delete": "Delete image {number}",
+            "saveFirst": "Add a title so the draft can be saved before uploading an image.",
+            "sizeError": "This image is larger than 1 MB.",
+            "typeError": "Choose a PNG or JPEG image.",
+            "limitError": "An article can contain at most {count} images.",
+            "uploadError": "The image could not be uploaded.",
+            "deleteError": "The image could not be deleted.",
+            "removeFromContentFirst": "Remove this image from the article and save the draft before deleting the file."
+        },
+        "validation": {
+            "title": "Add a title before saving.",
+            "excerpt": "Add a short introduction before submitting for review.",
+            "markdown": "Add the article body before submitting for review.",
+            "problem": "Enter a valid problem ID for this editorial.",
+            "sourceConsent": "Confirm that you agree to publish the selected submission's source code before submitting for review."
+        },
+        "errors": {
+            "save": "The draft could not be saved.",
+            "preview": "The preview could not be rendered.",
+            "editorParse": "The visual editor could not read part of this Markdown. Switch to Markdown mode to correct it without losing the source.",
+            "action": "The review request could not be updated.",
+            "pendingLimit": "You can have at most 3 articles actively awaiting review. Wait for a decision or cancel one request before submitting another.",
+            "conflict": "A newer version of this article exists. Reload it before continuing so nobody's work is overwritten.",
+            "forbidden": "You no longer have access to edit this article.",
+            "reload": "Reload latest version"
+        },
+        "toasts": {
+            "saved": "Draft saved",
+            "submitted": "Sent to the editorial team",
+            "cancelled": "Review request cancelled",
+            "deletionRequested": "Deletion request sent"
+        },
+        "dialogs": {
+            "leave": {
+                "title": "Leave with unsaved changes?",
+                "description": "Your latest edits have not been saved and will be lost if you leave this page.",
+                "stay": "Keep editing",
+                "confirm": "Leave without saving"
+            },
+            "submit": {
+                "title": "Submit this version for review?",
+                "description": "Editors will review the saved version. You can cancel the request if you need to edit it again.",
+                "confirm": "Save and submit"
+            },
+            "resubmit": {
+                "title": "Resubmit your changes?",
+                "description": "The revised version will return to the editorial queue.",
+                "confirm": "Save and resubmit"
+            },
+            "delete": {
+                "title": "Request deletion of this article?",
+                "description": "The published article stays available until an editor approves the request.",
+                "confirm": "Request deletion"
+            },
+            "cancel": {
+                "title": "Cancel this review request?",
+                "description": "The article will return to an editable state and leave the review queue.",
+                "confirm": "Cancel request"
+            },
+            "rationaleLabel": "Note for the editors (optional)",
+            "rationalePlaceholder": "Add context that helps the review...",
+            "sharedSolutionNotice": "This review includes submission #{id}. Its source code, evaluated score and metric, submission date, and ID will become public if this version is approved.",
+            "keepEditing": "Keep editing"
+        },
+        "pagination": {
+            "label": "Your article pages",
+            "previous": "Previous page",
+            "next": "Next page",
+            "page": "Page {page} of {pages}"
+        },
+        "invitation": {
+            "eyebrow": "Contributor invitation",
+            "title": "Your writing desk is waiting",
+            "description": "You have been invited to contribute an article to MLCompete.",
+            "unavailableTitle": "This invitation is no longer available",
+            "unavailableDescription": "It may have expired, been revoked, or already been used.",
+            "article": "Article",
+            "problem": "Problem",
+            "recipient": "Sent to",
+            "expires": "Expires",
+            "status": "Invitation status: {status}",
+            "statuses": {
+                "ACTIVE": "Available",
+                "REDEEMED": "Already accepted",
+                "REVOKED": "Withdrawn",
+                "EXPIRED": "Expired",
+                "INVALID": "Invalid",
+                "UNAVAILABLE": "Unavailable"
+            },
+            "accept": "Accept invitation",
+            "accepting": "Opening workspace...",
+            "signIn": "Sign in to accept",
+            "browseArticles": "Browse articles",
+            "accountNotice": "For your security, sign in with the same email address shown above.",
+            "errors": {
+                "unavailable": "This invitation has expired or is no longer available.",
+                "accountMismatch": "This invitation belongs to another account. Sign in with the invited email address.",
+                "generic": "The invitation could not be accepted. Please try again."
+            }
+        }
+    },
+    "header": {
+        "openMenu": "Open menu",
+        "closeMenu": "Close menu",
+        "changeLanguage": "Change language",
+        "userMenu": "User menu"
+    },
+    "learningMaterials": {
+        "badge": "New",
+        "title": "New Learning Materials Available!",
+        "description": "We've added a comprehensive learning roadmap with resources, tutorials, and guides to help you prepare for machine learning competitions.",
+        "feature1Title": "Structured Learning Path",
+        "feature1Description": "Follow clear, progressive steps to master ML concepts",
+        "feature2Title": "Curated Resources",
+        "feature2Description": "Access quality materials for every experience level",
+        "ctaButton": "Explore Learning Roadmap",
+        "secondaryButton": "View Problems"
+    },
+    "notifications": {
+        "title": "Notifications",
+        "markAllRead": "Mark all read",
+        "markAsRead": "Mark as read",
+        "noNotifications": "No notifications",
+        "loading": "Loading notifications...",
+        "unreadCount": "{count} unread",
+        "membershipApproved": "Membership Request Approved",
+        "membershipDeclined": "Membership Request Declined",
+        "institutionUnassigned": "Institution Changed",
+        "error": "Failed to load notifications",
+        "unreadQuestions": "{count} unread"
+    },
+    "hero": {
+        "title": "MLCompete",
+        "subtitle": "Explore and solve machine learning challenges. Test your models and climb the leaderboard.",
+        "ctaExplore": "Explore Problems",
+        "platformTitle": "Your Machine Learning Platform",
+        "platformSubtitle": "Join our community and participate in exciting competitions"
+    },
+    "footer": {
+        "copyright": "© {year} MLCompete. All rights reserved.",
+        "terms": "Terms and Conditions",
+        "privacy": "Privacy Policy",
+        "contact": "Contact"
+    },
+    "problems": {
+        "title": "Problems",
+        "latestProblems": "Latest Problems Added",
+        "subtitle": "Explore and solve machine learning challenges.",
+        "latestSubtitle": "Explore the latest machine learning challenges",
+        "viewProblem": "View Problem",
+        "viewAll": "View all problems",
+        "viewAllAria": "View all available problems",
+        "difficulty": "Difficulty",
+        "author": "Author",
+        "authors": "Authors",
+        "topScore": "Top",
+        "lastScore": "Last",
+        "yourBest": "Your best score",
+        "submissions": "Submissions",
+        "solved": "solved",
+        "average": "average",
+        "errorLoading": "Could not load problems. Please try again later.",
+        "loadMore": "Load more",
+        "loadingMore": "Loading...",
+        "loadingMoreAria": "Loading more problems",
+        "loadMoreAria": "Load more problems",
+        "retryLoadAria": "Try again to load problems",
+        "availableProblems": "Available problems",
+        "problem": "Problem",
+        "errorLoadingProblem": "Error loading problem. Please try again later.",
+        "maxScore": "Max score",
+        "description": "Description",
+        "problemDescription": "Problem Description",
+        "leaderboardTab": "Leaderboard",
+        "mySubmissions": "My Submissions",
+        "leaderboardTitle": "Leaderboard",
+        "leaderboardDesc": "Top participants for this challenge.",
+        "loadingLeaderboard": "Loading leaderboard…",
+        "noSubmissionsYet": "No submissions yet. Be the first on the leaderboard!",
+        "mySubmissionsTitle": "My Submissions",
+        "mySubmissionsDesc": "Submission history for this problem.",
+        "submissionId": "ID",
+        "submitted": "Submitted",
+        "score": "Partial score",
+        "finalScore": "Final score",
+        "status": "Status",
+        "actions": "Actions",
+        "details": "Details",
+        "evaluating": "Evaluating...",
+        "files": "Files",
+        "downloadFiles": "Download problem files",
+        "colab": {
+            "alternativeLabel": "or",
+            "oneClickBadge": "One-click setup",
+            "title": "Work and submit from Google Colab",
+            "description": "Open the notebook prepared for this problem. The first cell downloads the data; when you are done, submit your solution for evaluation directly from the notebook.",
+            "evaluationNote": "Colab submissions use the same evaluator and limits. Track the result in My Submissions.",
+            "privateCopyTitle": "A fresh private copy",
+            "privateCopyDescription": "Your work stays in a new notebook in your Google Drive.",
+            "readyToRunTitle": "No setup code to paste",
+            "readyToRunDescription": "Run the first cell to connect the problem, download its data, and start working.",
+            "openInColab": "Open in Google Colab",
+            "authorizingGoogle": "Connecting your Google account…",
+            "loadingNotebook": "Loading the trusted notebook…",
+            "connectingProblem": "Connecting this problem…",
+            "creatingNotebook": "Creating your private notebook…",
+            "openingColab": "Opening Google Colab…",
+            "googleAccountHint": "Google may ask you to choose an account.",
+            "configurationUnavailable": "Opening through Drive is temporarily unavailable. Use the temporary code below.",
+            "privacyNote": "MLCompete can access only the notebook it creates in Drive, not your other files.",
+            "manualTitle": "Doesn’t open? Use a temporary code",
+            "manualDescription": "Generate the code here, open the public notebook, and enter it when the first cell asks.",
+            "workspaceCode": "Workspace code",
+            "expiresAt": "Expires at {time}",
+            "codeCopied": "Copied",
+            "copyUnavailable": "Copy it manually",
+            "copyCode": "Copy workspace code",
+            "generateCode": "Generate and copy a workspace code",
+            "generatingCode": "Generating code…",
+            "regenerateCode": "Generate a new code",
+            "openPublicNotebook": "Open the public notebook in Colab",
+            "manualCodeHint": "Paste the workspace code only when the notebook asks for it. Never share it with someone else.",
+            "manualSignInHint": "Sign in to MLCompete first to generate a workspace code.",
+            "checkingSession": "Checking your session…",
+            "signIn": "Sign in to open Colab",
+            "errorTitle": "Colab workspace unavailable",
+            "errors": {
+                "unauthorized": "Your session expired. Sign in again and retry.",
+                "unavailable": "Colab is unavailable for this protected competition session.",
+                "generic": "We could not prepare the workspace. Please try again.",
+                "invalidResponse": "The workspace response was incomplete. Please try again.",
+                "configuration": "One-click launch is not configured correctly. Use the workspace-code option below.",
+                "googlePopupClosed": "Google sign-in was closed before it finished. Try again when you are ready.",
+                "googleAuthorization": "Google could not grant access to create the notebook. Try another account or use a workspace code.",
+                "templateUnavailable": "The starter notebook could not be loaded. Please try again shortly.",
+                "templateInvalid": "The starter notebook did not pass its safety check. Please use the manual option for now.",
+                "driveUpload": "Google Drive could not create the notebook. Check your account storage or use the manual option."
+            }
+        },
+        "submitSolution": "Submit Solution",
+        "submitSolutionsRemaining": "Submissions remaining {submissionsRemaining}/{submissionsMax}",
+        "submitSolutionDesc": "Upload the result file manually. You can also attach source code.",
+        "submitSolutionAndSourceCodeDesc": "Upload the result file and source code manually.",
+        "submissionFile": "Submission File",
+        "sourceFile": "Source Code File (optional)",
+        "sourceFileRequired": "Source Code File (required during competition)",
+        "fileSelected": "File selected!",
+        "clickToUpload": "Click to upload",
+        "dragAndDrop": "or drag and drop",
+        "fileTypes": "CSV, ZIP, etc. (MAX. 100MB)",
+        "sourceFileTypes": "Archive, notebook or code file",
+        "uploadSizeLimit": "100 MB maximum in total",
+        "loginToSubmit": "Sign in to upload a submission.",
+        "loginForUpload": "Sign in to upload",
+        "uploadAndEvaluate": "Submit for evaluation",
+        "uploading": "Uploading...",
+        "uploadFailed": "Upload failed",
+        "info": "Info",
+        "top": "Top",
+        "saveSelection": "Save selection",
+        "savingSelection": "Saving...",
+        "savedSelection": "Selection saved",
+        "saveSelectionError": {
+            "title": "Selection Failed",
+            "description": "We could not save your submission selection. Please reload the page and try again.",
+            "reload": "Reload Page"
+        },
+        "selectionDetails": "Select up to {selectionLimit} submissions for the final competition leaderboard — {selectedSubmissions}/{selectionLimit} selected",
+        "competitionSubmissionAlert": "Don't forget to select your best submissions for the final competition leaderboard!",
+        "backToCompetition": "Back to {competitionName}",
+        "competition": "Competition: {competitionName}",
+        "competitionEnded": "Competition ended",
+        "archiveProblem": "Archive problem",
+        "page": "Page",
+        "of": "of",
+        "previousPage": "Previous page",
+        "nextPage": "Next page",
+        "contribution": {
+            "headerAction": "Have an idea? Propose a problem",
+            "eyebrow": "Contribute to the catalog",
+            "title": "Build the challenge you would want to solve",
+            "description": "Bring together the statement, data, evaluator, and scoring model in a private draft. If the proposal is accepted, the published problem is credited to you and appears on your profile.",
+            "reviewNote": "Your draft and evaluator stay private while the platform team validates safety, clarity, and scoring.",
+            "primaryAction": "Start a problem proposal",
+            "guideAction": "Read the evaluator guide"
+        },
+        "proposeProblem": "Propose a problem"
+    },
+    "difficulty": {
+        "easy": "Easy",
+        "medium": "Medium",
+        "hard": "Hard"
+    },
+    "leaderboard": {
+        "title": "Global Leaderboard",
+        "subtitle": "Top participants from all machine learning challenges",
+        "fullLeaderboard": "Full Leaderboard",
+        "fullLeaderboardDesc": "All participants ordered by total score",
+        "rank": "Rank",
+        "awardRank": "Award",
+        "user": "User",
+        "score": "Score",
+        "problems": "Problems",
+        "average": "Average",
+        "totalScore": "Total score",
+        "metric": "Metric",
+        "attainedAt": "Attained at",
+        "topPodium": "Top 3 leaderboard podium",
+        "loadingLeaderboard": "Loading leaderboard…",
+        "tabs": {
+            "users": "Users",
+            "institutions": "Institutions",
+            "countries": "Countries",
+            "ariaLabel": "Leaderboard tabs",
+            "usersAriaLabel": "View user rankings",
+            "institutionsAriaLabel": "View institution rankings",
+            "countriesAriaLabel": "View country rankings",
+            "usersActive": "Now viewing user rankings",
+            "institutionsActive": "Now viewing institution rankings",
+            "countriesActive": "Now viewing country rankings"
+        },
+        "institutionLeaderboard": {
+            "title": "Institution Rankings",
+            "subtitle": "Top performing schools and universities",
+            "noResults": "No institutions found",
+            "errorLoading": "Failed to load institution rankings",
+            "members": "Members",
+            "county": "County",
+            "type": "Type"
+        },
+        "countryRankings": {
+            "title": "Country Rankings",
+            "subtitle": "Countries ranked by aggregate performance",
+            "topCountries": "Top Countries",
+            "description": "Countries ranked by total participant scores",
+            "resultsCount": "{count, plural, =0 {No results} =1 {1 country} other {# countries}}",
+            "country": "Country",
+            "participants": "Participants",
+            "institutions": "Institutions",
+            "totalScore": "Total Score",
+            "noData": "No country data available",
+            "noDataDescription": "There are no countries with participants yet",
+            "errorTitle": "Failed to load rankings",
+            "errorMessage": "Unable to load country rankings. Please try again."
+        }
+    },
+    "profile": {
+        "title": "Profile",
+        "viewProfile": "View Profile",
+        "rank": "Rank",
+        "joinedAt": "Joined on {date}",
+        "about": "About",
+        "totalScore": "Total score",
+        "problemsSolved": "Problems solved",
+        "averageScore": "Average score",
+        "globalRank": "Global rank",
+        "recentSubmissions": "Recent submissions",
+        "submissionHistory": "Submission History",
+        "submissionHistoryDesc": "Most recent attempts at all problems",
+        "noSubmissions": "No submissions yet",
+        "problem": "Problem",
+        "date": "Date",
+        "score": "Partial score",
+        "finalScore": "Final score",
+        "status": "Status",
+        "country": "Country",
+        "customCountry": "Custom country",
+        "institutionCountry": "Institution country",
+        "fromInstitution": "from institution",
+        "institution": "Institution",
+        "noInstitution": "You are not affiliated with any institution",
+        "joinInstitution": "Join an Institution",
+        "changeInstitution": "Change Institution",
+        "memberSince": "Member since {date}",
+        "privateTitle": "Private profile",
+        "privateDescription": "This user has set their profile to private. You can only view public profiles.",
+        "viewLeaderboardCta": "View Leaderboard",
+        "goHome": "Go to Homepage",
+        "publishedProblems": {
+            "eyebrow": "Problem authorship",
+            "title": "Published problems",
+            "description": "Public problems credited to this author on MLCompete.",
+            "count": "{count, plural, =0 {No published problems} =1 {# published problem} other {# published problems}}",
+            "countUnavailable": "Count unavailable",
+            "listLabel": "Problems published by this author",
+            "openProblem": "Open {title}",
+            "emptyTitle": "No published problems yet",
+            "emptyDescription": "Problems attributed to this author will be listed here once they are public.",
+            "errorTitle": "Published problems could not be loaded",
+            "errorDescription": "This profile is still available. Try loading its problem list again.",
+            "retry": "Try again"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "subtitle": "Manage your account settings and preferences.",
+        "profile": "Profile",
+        "privacy": "Privacy",
+        "appearance": "Appearance",
+        "theme": "Theme",
+        "profileInfo": "Profile Information",
+        "profileInfoDesc": "Update your personal information and profile details.",
+        "changeAvatar": "Change avatar",
+        "removeAvatar": "Remove avatar",
+        "removingAvatar": "Removing...",
+        "noAvatar": "No avatar set",
+        "selectAvatar": "Select Avatar",
+        "selectAvatarDesc": "Crop the photo to create a square avatar.",
+        "username": "Username",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "location": "City",
+        "website": "Website",
+        "github": "GitHub",
+        "githubPlaceholder": "https://github.com/username",
+        "bio": "About",
+        "saveChanges": "Save changes",
+        "privacySettings": "Privacy Settings",
+        "privacySettingsDesc": "Control your privacy and data sharing preferences.",
+        "publicProfile": "Public Profile",
+        "publicProfileDesc": "Make your profile visible to other users",
+        "showInLeaderboard": "Show in Leaderboard",
+        "showInLeaderboardDesc": "Display your ranking in public leaderboards",
+        "shareSubmissionHistory": "Share Submission History",
+        "shareSubmissionHistoryDesc": "Allow other users to see your submission history",
+        "publicEmail": "Public Email",
+        "publicEmailDesc": "Make your email visible to other users",
+        "publicName": "Public Name",
+        "publicNameDesc": "Make your first and last name visible to other users",
+        "consentGeneralAnouncements": "General Announcements",
+        "consentGeneralAnouncementsDesc": "Receive email notifications for general platform announcements",
+        "consentOlympiadAnouncements": "Olympiad Announcements",
+        "consentOlympiadAnouncementsDesc": "Receive email notifications for Olympiad related announcements",
+        "updatePrivacySettings": "Update privacy settings",
+        "appearanceSettings": "Appearance",
+        "appearanceSettingsDesc": "Customize the look and behavior of the platform.",
+        "appearanceMenuLabel": "Appearance settings",
+        "interfaceStyleLabel": "Platform style",
+        "interfaceStyleDescription": "Choose the visual style used across MLCompete. Your choice is saved to your account and follows you to every device.",
+        "oniaV2Name": "ONIA v2 · Default",
+        "oniaV2Description": "The current competition-notebook style, with crisp geometry and bold violet accents.",
+        "oniaV1Name": "ONIA v1 · Classic",
+        "oniaV1Description": "The familiar style from before the 2026 redesign, with rounded surfaces and blue-violet accents.",
+        "colorModeLabel": "Color mode",
+        "colorModeDescription": "Choose how light and dark colors are applied. Current mode: {mode}",
+        "appearanceSaving": "Saving this choice to your account…",
+        "appearanceSaved": "Saved to your account. This appearance will be used on your other devices too.",
+        "appearanceSaveError": "We could not save this choice. Your last saved appearance was restored.",
+        "themeLabel": "Theme",
+        "themeDesc": "Choose your preferred theme. Current theme: {theme}",
+        "themeLight": "Light",
+        "themeDark": "Dark",
+        "themeSystem": "System",
+        "themeApplied": "✅ Theme changes are applied automatically",
+        "errorLoadingSettings": "Could not load settings",
+        "errorSavingSettings": "Could not save settings",
+        "errorUploadingAvatar": "Could not upload avatar",
+        "errorRemovingAvatar": "Could not remove avatar",
+        "country": "Country",
+        "selectCountry": "Select your country",
+        "institutionCountry": "Institution country",
+        "institutionCountryInfo": "Your institution's country: {country}",
+        "customCountry": "Custom country selected",
+        "noCountrySelected": "No country selected",
+        "countryRequired": "Country is required",
+        "countryHelp": "This will be displayed on your profile and in leaderboards",
+        "errorLoadingCountries": "Could not load countries",
+        "errorSavingCountry": "Could not save country selection",
+        "errorInvalidCountry": "Invalid country selected",
+        "searchCountries": "Search countries...",
+        "noCountryFound": "No country found",
+        "usernameSuggestion": "Suggestion:",
+        "usernameInvalid": "The username may only contain lowercase letters, numbers, and hyphens. Suggestion: {suggestion}",
+        "clearCountry": "Clear country",
+        "removeAvatarTitle": "Remove avatar?",
+        "removeAvatarDescription": "Your current avatar will be removed. You can upload another image at any time.",
+        "removeAvatarConfirm": "Remove avatar",
+        "unsavedChangesTitle": "Discard unsaved changes?",
+        "unsavedChangesDescription": "Changes in this settings section have not been saved.",
+        "keepEditing": "Keep editing",
+        "discardChanges": "Discard changes",
+        "avatarZoom": "Zoom",
+        "avatarPreview": "Avatar preview",
+        "avatarPosition": "Position image",
+        "avatarMoveUp": "Move image up",
+        "avatarMoveDown": "Move image down",
+        "avatarMoveLeft": "Move image left",
+        "avatarMoveRight": "Move image right",
+        "avatarResetPosition": "Reset position",
+        "avatarInvalidType": "Choose a PNG, JPG, or WebP image.",
+        "avatarTooLarge": "The image must be {size} MB or smaller.",
+        "avatarLoadError": "The image could not be loaded. Choose another file."
+    },
+    "auth": {
+        "signingIn": "Signing you in",
+        "redirecting": "You are being redirected to authentication…",
+        "signIn": "Sign in",
+        "signOut": "Sign out",
+        "authentication": "Authentication",
+        "accessDisabled": "Access Disabled",
+        "accessDisabledDesc": "Your access to {competition} has been disabled.",
+        "accessDisabledMessage": "{name}, your account is marked as disabled for this competition. If you believe this is an error, please contact the organizers.",
+        "unsubscribeSuccess": {
+            "title": "Unsubscribed Successfully",
+            "description": "You have been successfully unsubscribed from our mailing list.",
+            "message": "We're sorry to see you go. You can always re-subscribe from your profile settings if you change your mind.",
+            "goHome": "Go to Homepage"
+        }
+    },
+    "pagination": {
+        "page": "Page",
+        "of": "of",
+        "previous": "Previous",
+        "next": "Next"
+    },
+    "stats": {
+        "totalScore": "Total score",
+        "solved": "solved",
+        "average": "average"
+    },
+    "accessibility": {
+        "heroSection": "Hero section",
+        "navigateTo": "{label} - Navigate to {destination}",
+        "difficultyLabel": "Difficulty: {difficulty}",
+        "problemStats": "Problem statistics",
+        "topScoreLabel": "Top score: {score} percent",
+        "lastAttemptLabel": "Last attempt score: {score}",
+        "lastAttemptNone": "Last attempt score: Not attempted",
+        "viewDetailsFor": "View details for {title}",
+        "rankLabel": "Rank {rank}: {username} with {score} points",
+        "currentLanguage": "Current language: {language}",
+        "languageOptions": "Language options",
+        "highlightedCompetition": "Highlighted competition"
+    },
+    "languages": {
+        "en": "English",
+        "ro": "Română",
+        "de": "Deutsch",
+        "bg": "Български",
+        "sr": "Српски",
+        "uk": "Українська",
+        "hu": "Magyar",
+        "ru": "Русский",
+        "kk": "Қазақша",
+        "ka": "ქართული",
+        "fr": "Français",
+        "nl": "Nederlands",
+        "et": "Eesti",
+        "fi": "Suomi",
+        "sv": "Svenska",
+        "lv": "Latviešu",
+        "lt": "Lietuvių",
+        "hr": "Hrvatski",
+        "sk": "Slovenčina",
+        "sl": "Slovenščina",
+        "cs": "Čeština",
+        "da": "Dansk",
+        "it": "Italiano",
+        "es": "Español",
+        "pt": "Português",
+        "pl": "Polski",
+        "no": "Norsk",
+        "zh-CN": "中文",
+        "ar": "العربية",
+        "he": "עברית"
+    },
+    "submissionStatus": {
+        "success": "Submission Sent!",
+        "failed": "Submission Failed",
+        "successMessage": "Your submission has been successfully recorded",
+        "failedMessage": "There was a problem with your submission",
+        "uploadSuccess": "Submission uploaded successfully.",
+        "uploadError": "Error uploading submission.",
+        "sebRequired": "This competition requires Safe Exam Browser. Please download the SEB configuration file and submit from within SEB.",
+        "sebVerificationFailed": "Safe Exam Browser verification failed. Please ensure you are using the correct SEB configuration for this competition.",
+        "close": "Close",
+        "submissionId": "Submission ID",
+        "submittedAt": "Submitted at"
+    },
+    "submissionDetails": {
+        "title": "Submission Details",
+        "submissionId": "Submission ID",
+        "status": "Status",
+        "score": "Partial score",
+        "finalScore": "Final score",
+        "metric": "Partial metric",
+        "finalMetric": "Final metric",
+        "submittedAt": "Submitted At",
+        "downloadSubmission": "Download Submission",
+        "downloadSource": "Download Source",
+        "evaluationMessage": "Evaluation Message",
+        "stdout": "Standard Output",
+        "stderr": "Standard Error",
+        "noOutput": "No output",
+        "noErrors": "No errors",
+        "subtaskResults": "Subtask Results",
+        "subtask": "Subtask",
+        "close": "Close",
+        "retry": "Retry",
+        "loadingDetails": "Loading submission details...",
+        "errorNotFound": "Submission not found",
+        "errorPermission": "You do not have permission to view this submission",
+        "errorLoading": "Failed to load submission details",
+        "submissionStatus": "Submission status",
+        "evaluated": "Evaluated",
+        "error": "Error",
+        "processing": "Processing",
+        "overallScore": "Overall score",
+        "state": "State",
+        "details": "Details",
+        "detailedMetrics": "Detailed evaluation metrics for your submission",
+        "logs": "Logs",
+        "detailedLogs": "Detailed evaluation logs for your submission",
+        "subtasks": "Subtasks",
+        "subtaskName": "Subtask",
+        "metricName": "Metric name"
+    },
+    "errorBoundary": {
+        "title": "An error occurred",
+        "description": "We're sorry, but the comments section encountered a problem.",
+        "suggestion": "You can try reloading the section or come back later.",
+        "technicalDetails": "Technical details (development only)",
+        "reloadSection": "Reload comments section",
+        "reloadPage": "Reload page"
+    },
+    "consent": {
+        "title": "Cookie Preferences",
+        "description": "We use cookies to enhance your experience, analyze site traffic, and personalize content. Choose your preferences below.",
+        "analytics": "Analytics Cookies",
+        "analyticsDesc": "Help us understand how you use our platform to improve your experience",
+        "marketing": "Marketing Cookies",
+        "marketingDesc": "Allow us to show you relevant content and advertisements",
+        "functional": "Functional Cookies",
+        "functionalDesc": "Enable enhanced functionality and personalization",
+        "acceptAll": "Accept All",
+        "declineAll": "Decline All",
+        "customize": "Customize",
+        "savePreferences": "Save Preferences",
+        "privacyPolicy": "Privacy Policy",
+        "learnMore": "Learn more about how we use cookies"
+    },
+    "admin": {
+        "userCountry": "User Country",
+        "institutionCountry": "Institution Country",
+        "editCountry": "Edit Country"
+    },
+    "errors": {
+        "notFound": {
+            "title": "Page Not Found",
+            "heading": "404 - Page Not Found",
+            "description": "The page you're looking for doesn't exist or has been moved.",
+            "suggestion": "You might have mistyped the address, or the page may have been removed.",
+            "goHome": "Go to Homepage",
+            "viewProblems": "View Problems",
+            "viewLeaderboard": "View Leaderboard"
+        },
+        "serverError": {
+            "title": "Something Went Wrong",
+            "heading": "Oops! Something went wrong",
+            "description": "We encountered an unexpected error while processing your request.",
+            "suggestion": "Please try again in a few moments. If the problem persists, contact support.",
+            "tryAgain": "Try Again",
+            "goHome": "Go to Homepage",
+            "contactSupport": "Contact Support"
+        }
+    },
+    "institutions": {
+        "title": "Institutions",
+        "description": "Browse and join educational institutions",
+        "filterByType": "Filter by type",
+        "filterByCounty": "Filter by county",
+        "allTypes": "All types",
+        "allCounties": "All counties",
+        "searchPlaceholder": "Search institutions...",
+        "resultsCount": "{count, plural, =0 {No institutions found} =1 {1 institution} other {# institutions}}",
+        "noResults": "No institutions found",
+        "noResultsDescription": "Try adjusting your filters or search query",
+        "requestToJoin": "Request to Join",
+        "requestPending": "Request Pending",
+        "alreadyMember": "Already a Member",
+        "alreadyMemberDescription": "You are already a member of this institution",
+        "memberCount": "{count, plural, =0 {No members} =1 {1 member} other {# members}}",
+        "types": {
+            "gimnaziu": "Middle School",
+            "liceu": "High School",
+            "facultate": "University"
+        },
+        "about": "About",
+        "address": "Address",
+        "website": "Website",
+        "totalMembers": "Total members",
+        "moderators": "Moderators",
+        "moderatorsDescription": "Users who manage this institution",
+        "assignedAt": "Assigned on {date}",
+        "notFound": "Institution not found",
+        "backToList": "Back to institutions",
+        "error": "Error",
+        "loadError": "Failed to load institutions",
+        "requestSent": "Request sent",
+        "requestSentDescription": "Your membership request has been submitted",
+        "requestApproved": "Request approved",
+        "requestApprovedDescription": "Your membership request was automatically approved. Welcome to the institution!",
+        "requestError": "Request failed",
+        "requestErrorDescription": "Failed to send membership request",
+        "submitting": "Submitting...",
+        "country": "Country",
+        "countryRequired": "Country is required",
+        "requestDialog": {
+            "title": "Request to Join Institution",
+            "description": "You are about to request to join {institution}. A moderator will review your request.",
+            "warningTitle": "Important Notice",
+            "warningDescription": "You are currently a member of another institution. If this request is approved, you will be automatically removed from your current institution.",
+            "confirmation": "Do you want to proceed with this request?",
+            "confirm": "Send Request"
+        },
+        "leaveInstitution": "Leave Institution",
+        "leftInstitution": "Left institution",
+        "leftInstitutionDescription": "You have successfully left the institution",
+        "leaveError": "Failed to leave",
+        "leaveErrorDescription": "Failed to leave institution",
+        "leaveInstitutionConfirmTitle": "Leave Institution?",
+        "leaveInstitutionConfirmDescription": "Are you sure you want to leave {name}? You will need to request to join again if you change your mind.",
+        "autoApproveEnabled": "Auto-approve enabled"
+    },
+    "counties": {
+        "title": "Counties",
+        "description": "Browse Romanian counties and their statistics",
+        "searchPlaceholder": "Search counties...",
+        "resultsCount": "{count, plural, =0 {No counties found} =1 {1 county} other {# counties}}",
+        "noResults": "No counties found",
+        "noResultsDescription": "Try adjusting your search query",
+        "statisticsPreview": "View statistics",
+        "totalUsers": "Total users",
+        "totalInstitutions": "Total institutions",
+        "notFound": "County not found",
+        "backToList": "Back to counties",
+        "error": "Error",
+        "loadError": "Failed to load counties",
+        "detailDescription": "Statistics and institutions",
+        "registeredUsers": "Registered users",
+        "educationalInstitutions": "Educational institutions",
+        "averageUsers": "Average users",
+        "usersPerInstitution": "Users per institution",
+        "userDistribution": "User Distribution by Type",
+        "userDistributionDescription": "Number of users in each institution type",
+        "users": "users",
+        "institutionDistribution": "Institution Distribution",
+        "institutionDistributionDescription": "Number of institutions by type",
+        "topInstitutions": "Top Institutions",
+        "topInstitutionsDescription": "Institutions with the most members",
+        "viewAllInstitutions": "View All Institutions"
+    },
+    "myRequests": {
+        "title": "My Membership Requests",
+        "description": "View and manage your institution membership requests",
+        "noRequests": "No membership requests",
+        "noRequestsDescription": "You haven't requested to join any institutions yet",
+        "browseInstitutions": "Browse Institutions",
+        "requestedAt": "Requested at",
+        "processedAt": "Processed at",
+        "processedBy": "Processed by",
+        "notes": "Notes",
+        "viewInstitution": "View Institution",
+        "cancelRequest": "Cancel Request",
+        "status": {
+            "pending": "Pending",
+            "approved": "Approved",
+            "declined": "Declined",
+            "cancelled": "Cancelled"
+        },
+        "error": "Error",
+        "loadError": "Failed to load requests",
+        "cancelled": "Request cancelled",
+        "cancelledDescription": "Your membership request has been cancelled",
+        "cancelError": "Cancel failed",
+        "cancelErrorDescription": "Failed to cancel membership request",
+        "cancelDialog": {
+            "title": "Cancel Membership Request",
+            "description": "Are you sure you want to cancel your request to join {institution}?",
+            "confirm": "Cancel Request"
+        }
+    },
+    "countries": {
+        "title": "Countries",
+        "selectCountry": "Select Country",
+        "defaultCountry": "Romania",
+        "country": "Country"
+    },
+    "rankings": {
+        "institutionTitle": "Institution Rankings",
+        "institutionDescription": "Institutions ranked by total score",
+        "countyTitle": "County Rankings",
+        "countyDescription": "Counties ranked by user count",
+        "institutionRankings": "Institution Rankings",
+        "institutionRankingsDescription": "View institutions ranked by total score",
+        "countyRankings": "County Rankings",
+        "countyRankingsDescription": "View counties ranked by user count",
+        "topInstitutions": "Top Institutions",
+        "topCounties": "Top Counties",
+        "resultsCount": "{count, plural, =0 {No results} =1 {1 result} other {# results}}",
+        "noResults": "No results found",
+        "rank": "Rank",
+        "institution": "Institution",
+        "country": "Country",
+        "county": "County",
+        "type": "Type",
+        "members": "Members",
+        "totalScore": "Total Score",
+        "totalUsers": "Total Users",
+        "institutions": "Institutions",
+        "avgUsers": "Avg. Users",
+        "error": "Error",
+        "loadError": "Failed to load rankings",
+        "loading": "Loading rankings..."
+    },
+    "competitions": {
+        "list": {
+            "title": "Competitions",
+            "subtitle": "Browse active and past competitions",
+            "error": "Failed to load competitions.",
+            "none": "No competitions available at the moment.",
+            "view": "View competition"
+        },
+        "status": {
+            "future": "Future",
+            "ended": "Ended",
+            "ongoing": "Ongoing",
+            "joined": "Joined"
+        },
+        "dates": {
+            "starts": "Starts",
+            "ends": "Ends"
+        },
+        "scoring": {
+            "visible": "Final scores visible",
+            "visibleDescription": "Final scores and final leaderboards are visible throughout this competition."
+        },
+        "details": {
+            "join": "Join competition",
+            "joinedBadge": "Joined",
+            "competitionOptions": "Competition options",
+            "leaveCompetition": "Leave competition",
+            "leaveDialogTitle": "Leave Competition?",
+            "leaveDialogDescription": "Are you sure you want to leave this competition? Your submissions and progress will be removed, and you may not be able to rejoin.",
+            "leaveDialogCancel": "Cancel",
+            "leaveDialogConfirm": "Leave Competition",
+            "leaveDialogLeaving": "Leaving...",
+            "leaveSuccess": "You have successfully left the competition",
+            "leaveFailed": "Failed to leave competition. Please try again.",
+            "shareCompetition": "Share competition",
+            "linkCopied": "Competition link copied to clipboard",
+            "copyFailed": "Failed to copy link",
+            "dnsBlocking": {
+                "title": "Internet Restrictions Active",
+                "description": "This competition uses DNS blocking to restrict internet access to whitelisted websites only. Your internet access is currently limited.",
+                "recoveryTitle": "⚠️ Important: Internet Recovery",
+                "recoveryDescription": "If you experience internet connectivity issues after the competition ends, simply re-open the MLCompete Companion App. This will automatically restore your normal internet access."
+            },
+            "tabs": {
+                "description": "Description",
+                "rules": "Rules",
+                "problems": "Problems",
+                "partial": "Partial leaderboard",
+                "final": "Final leaderboard",
+                "editorial": "Editorial",
+                "recording": "Recording",
+                "finish": "Finish",
+                "diplomas": "Diplomas"
+            },
+            "recording": {
+                "title": "Recording Link",
+                "description": "This competition requires you to provide a link to a recording of your working session.",
+                "linkLabel": "Recording link (e.g., Google Drive, YouTube, etc.)",
+                "saveButton": "Save Link",
+                "saveSuccess": "Recording link saved successfully",
+                "saveError": "Failed to save recording link"
+            },
+            "finishEarly": {
+                "title": "Finish Competition Early",
+                "description": "If you have finished all problems and want to complete your session, you can do so here. Once you finish, you will no longer be able to submit solutions or view the problems until the competition ends.",
+                "button": "Finish competition early",
+                "confirmTitle": "Finish Competition Early?",
+                "confirmDescription": "Are you sure you want to finish the competition early? You will not be able to submit any more solutions or view the problems until the competition is over.",
+                "confirmButton": "Yes, finish early",
+                "success": "Competition finished early successfully",
+                "error": "Failed to finish competition early"
+            },
+            "noProblems": "No problems are available for this competition yet.",
+            "timerLabel": "Time remaining: {days} days, {hours} hours, {minutes} minutes, {seconds} seconds",
+            "timerDays": "d",
+            "timerEndsIn": "Ends in",
+            "countdownAlert": "Less than 10 minutes remaining! Don't forget to select your best submissions for the final competition leaderboard!",
+            "finishTabAlert": "Don't forget to select your best submissions for the final competition leaderboard!",
+            "problemsRefreshed": "Problems refreshed successfully",
+            "refreshFailed": "Failed to refresh problems",
+            "problemsHiddenTitle": "Problems Hidden",
+            "participantFinishedTitle": "Competition Finished",
+            "missingRequiredFieldsMessage": "You need to fill in all required fields to view the problems.",
+            "anticheatSessionNotOkMessage": "There is an issue with your anti-cheat session. Please make sure it is running correctly.",
+            "competitionFinishedMessage": "You have chosen to finish the competition early. The problems will be available again after its completion.",
+            "sessionNotOkMessage": "The current session is not authorized for the competition. Please contact the technical commission.",
+            "refreshProblems": "Refresh Problems",
+            "submissionSelection": {
+                "alert": "Attention: You must select a maximum of {count} submissions for each problem to be considered for the final leaderboard. This selection can be made as many times as you wish. Please note that in the last 5 minutes of the competition, no new submissions can be sent and only already existing submissions can be selected.",
+                "acknowledge": "I understand",
+                "confirmTitle": "Acknowledgment Confirmation",
+                "confirmDescription": "Do you confirm that you understand you must manually select submissions for each problem?",
+                "confirmButton": "Confirm",
+                "cancelButton": "Cancel",
+                "participantId": "Participant ID",
+                "participantIdPlaceholder": "Enter your participant ID",
+                "password": "Subject access password",
+                "passwordPlaceholder": "Enter the subject access password",
+                "modalTitle": "Verify your submission selection",
+                "modalDescription": "The competition has ended. Please verify if you have selected the best submissions for each problem. These will be used for the final leaderboard.",
+                "noSubmissionsSelected": "No submissions selected for this problem!",
+                "reminderToSelect": "You can still select {count} more submissions."
+            },
+            "diplomas": {
+                "title": "Diplomas",
+                "description": "Your participation diploma is ready for download.",
+                "downloadButton": "Download Diploma"
+            }
+        },
+        "home": {
+            "title": "Latest competitions",
+            "subtitle": "Explore latest machine learning competitions",
+            "viewAll": "View all competitions"
+        }
+    },
+    "roadmap": {
+        "title": "Roadmap",
+        "description": "The steps you should follow to prepare for machine learning competitions"
+    },
+    "myQuestions": {
+        "title": "My Questions",
+        "description": "View and manage your questions about problems",
+        "tabs": {
+            "all": "All",
+            "answered": "Answered",
+            "unanswered": "Pending"
+        },
+        "noQuestions": "No questions",
+        "noQuestionsAll": "You haven't asked any questions yet. Visit a problem and ask a question to get help.",
+        "noQuestionsAnswered": "You don't have any answered questions yet.",
+        "noQuestionsUnanswered": "You don't have any pending questions.",
+        "askQuestion": "Ask a Question",
+        "page": "Page",
+        "of": "of",
+        "previous": "Previous",
+        "next": "Next"
+    },
+    "onboarding": {
+        "dismiss": "Skip for now",
+        "dismissAriaLabel": "Dismiss onboarding wizard and continue to platform",
+        "dismissTooltip": "Skip onboarding wizard (Press Escape)",
+        "wizardTitle": "Welcome to MLCompete - Onboarding Wizard",
+        "wizardDescription": "Complete these steps to get started with your account",
+        "wizardContentLabel": "Onboarding wizard content",
+        "steps": {
+            "profile": "Complete Profile",
+            "institution": "Select Institution"
+        },
+        "progressLabel": "Onboarding progress",
+        "progressAnnouncement": "Step {current} of {total}. {completed} steps completed.",
+        "stepCompleteLabel": "{step} - Completed",
+        "stepActiveLabel": "{step} - Current step",
+        "stepPendingLabel": "{step} - Not started",
+        "welcome": "Welcome to MLCompete!",
+        "subtitle": "Let's get you started with a few quick steps",
+        "profileSetup": {
+            "title": "Complete Your Profile",
+            "description": "Add some information about yourself to personalize your account",
+            "descriptionComplete": "Your profile is complete! You can update it anytime in settings.",
+            "incompleteFields": "{completed} of {total} fields completed",
+            "completeProfile": "Complete Profile",
+            "completeProfileAriaLabel": "Navigate to profile settings to complete your profile",
+            "viewProfile": "View Profile Settings",
+            "viewProfileAriaLabel": "Navigate to profile settings to view your profile",
+            "skip": "Skip for now",
+            "skipAriaLabel": "Skip profile setup and continue to institution selection",
+            "iconCompleteLabel": "Profile completed",
+            "iconPendingLabel": "Profile incomplete",
+            "completedBadgeLabel": "Completed",
+            "fieldChecklistLabel": "Profile completion checklist",
+            "fieldCompleteIcon": "Completed",
+            "fieldIncompleteIcon": "Not completed",
+            "fields": {
+                "username": "Username",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "bio": "Bio / About Me",
+                "location": "Location"
+            }
+        },
+        "institutionSelection": {
+            "title": "Select Your Institution",
+            "description": "Join your school or university to participate in institutional rankings and connect with your peers",
+            "currentInstitutionDescription": "You are a member of this institution. You can change it anytime.",
+            "completeDescription": "You have successfully joined an institution.",
+            "pendingDescription": "Your membership request is pending approval. We'll notify you once it's reviewed.",
+            "loading": "Loading institution status...",
+            "selectInstitution": "Select Institution",
+            "selectInstitutionAriaLabel": "Navigate to institutions page to select your institution",
+            "selectCountry": "Select your country",
+            "countryHelp": "This will be displayed on your profile and in leaderboards",
+            "countryFromInstitution": "Your country will be inherited from your institution",
+            "searchAndSelect": "Search & Select",
+            "browseAll": "Browse All",
+            "browseAllAriaLabel": "Browse all institutions",
+            "searchInstitutions": "Search Institutions",
+            "cancel": "Cancel",
+            "changeInstitution": "Change Institution",
+            "changeInstitutionAriaLabel": "Navigate to institutions page to change your institution",
+            "viewInstitutions": "View Institutions",
+            "viewInstitutionsAriaLabel": "Navigate to institutions page to view all institutions",
+            "pendingStatus": "Request Pending",
+            "currentInstitution": "Your current institution",
+            "selectIconLabel": "Institution selection",
+            "pendingIconLabel": "Membership request pending",
+            "completeIconLabel": "Institution selected",
+            "completedIconLabel": "Institution membership confirmed",
+            "completedBadgeLabel": "Completed",
+            "institutionDetailsLabel": "Current institution details",
+            "types": {
+                "gimnaziu": "Middle School",
+                "liceu": "High School",
+                "facultate": "University"
+            }
+        }
+    },
+    "profileCompletion": {
+        "incomplete": "Incomplete",
+        "incompleteProfile": "Complete your profile",
+        "dismissIndicator": "Dismiss profile completion reminder"
+    },
+    "join": {
+        "registerFailedInitialMessage": "Registration failed. Please check your details and try again.",
+        "registerFailedGenericMessage": "Unexpected error. Please try again later.",
+        "participantId": "Participant ID",
+        "participantIdPlaceholder": "Enter your participant ID",
+        "password": "Password",
+        "passwordPlaceholder": "Enter your password",
+        "title": "Competition registration",
+        "description": "You need to register to access {name}",
+        "submitting": "Submitting...",
+        "submit": "Register",
+        "cancel": "Cancel"
+    },
+    "editorial": {
+        "authors": "Authors",
+        "editorialContent": "Editorial",
+        "featuredSolutions": "Featured Solutions",
+        "viewSource": "View Source",
+        "showCode": "Show Code",
+        "hideCode": "Hide Code",
+        "download": "Download",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "sourceCode": "Source Code",
+        "sourceCodeBy": "Source Code by {author}",
+        "tableOfContents": "Table of Contents",
+        "clickDownloadToView": "Click download to view the source file",
+        "downloadToViewContent": "Click the download button above to view the full source code.",
+        "editorialTab": "Editorial",
+        "noEditorial": "No editorial available for this competition.",
+        "editorialContributions": "Editorial Contributions",
+        "viewEditorial": "View Editorial",
+        "contributedTo": "Contributed to",
+        "hasSourceCode": "Includes source code"
+    },
+    "appeals": {
+        "title": "Appeals",
+        "description": "Select the problems you want to appeal and provide a detailed explanation for each one.",
+        "loading": "Loading appeals",
+        "loadErrorTitle": "We couldn't load your appeals",
+        "loadErrorDescription": "Try again to see the current status of your appeals.",
+        "retry": "Try again",
+        "status": {
+            "pending": "Pending",
+            "accepted": "Accepted",
+            "rejected": "Rejected"
+        },
+        "countdownLabel": "Time remaining: {time}",
+        "problemFallback": "Problem #{id}",
+        "committeeResponse": "Committee response",
+        "removeAppealAria": "Remove the appeal for {problem}",
+        "removeProblem": "Remove problem",
+        "reasonLabel": "Reason for the appeal",
+        "reasonPlaceholder": "Explain why you are appealing this problem...",
+        "explanationAria": "Appeal explanation for {problem}",
+        "minimumCharacters": "At least {minimum} characters ({count}/{minimum})",
+        "characterCount": "{count, plural, =1 {1 character} other {# characters}}",
+        "completed": "Completed",
+        "submitSuccess": "{count, plural, =1 {Appeal submitted successfully} other {# appeals submitted successfully}}",
+        "submitError": "We couldn't submit your appeals. Please try again.",
+        "successTitle": "Appeals submitted",
+        "successDescription": "We'll notify you when the committee responds.",
+        "problemsTitle": "Problems",
+        "selectAll": "Select all ({count})",
+        "draftsTitle": "{count, plural, =1 {1 appeal to submit} other {# appeals to submit}}",
+        "selectPrompt": "Select one or more problems above to begin.",
+        "allAppealed": "You have already appealed every available problem.",
+        "completedCount": "{completed}/{total} completed",
+        "completedProgress": "{completed} of {total} appeals completed",
+        "cancel": "Cancel",
+        "submitting": "Submitting...",
+        "submitCount": "{count, plural, =1 {Submit appeal} other {Submit # appeals}}",
+        "yourAppeals": "Your appeals",
+        "appealOther": "Appeal other problems",
+        "submitAppeal": "Submit an appeal",
+        "registeredTitle": "Appeal registered",
+        "registeredDescription": "Your appeal has been registered. Its details will appear here after processing.",
+        "expiredDescription": "The appeal submission period has ended.",
+        "discardTitle": "Discard these appeals?",
+        "discardDescription": "Your unsaved explanations will be lost if you close this form.",
+        "continueEditing": "Continue editing",
+        "discard": "Discard"
+    },
+    "achievements": {
+        "title": "Achievements",
+        "errorLoading": "Failed to load achievements",
+        "showcase": "Achievement Showcase",
+        "editShowcase": "Edit",
+        "showcaseEmpty": "No achievements showcased yet.",
+        "showcaseEmptyOwn": "Showcase your best achievements! Click Edit to select up to 5 achievements.",
+        "statistics": "Achievement Statistics",
+        "earned": "Earned",
+        "of": "of",
+        "complete": "Complete",
+        "totalXp": "Total XP",
+        "dayStreak": "Day Streak",
+        "bestStreak": "Best",
+        "rarityDistribution": "Rarity Distribution",
+        "common": "Common",
+        "uncommon": "Uncommon",
+        "rare": "Rare",
+        "epic": "Epic",
+        "legendary": "Legendary",
+        "sortBy": "Sort by",
+        "byCategory": "By Category",
+        "byRarity": "By Rarity",
+        "byDate": "By Date",
+        "byName": "By Name",
+        "all": "All",
+        "problemSolving": "Problem Solving",
+        "competition": "Competition",
+        "engagement": "Engagement",
+        "social": "Social",
+        "special": "Special",
+        "noAchievements": "No achievements in this category yet.",
+        "almostThere": "Almost There!",
+        "unlocked": "Unlocked",
+        "locked": "Locked",
+        "progress": "Progress",
+        "xpReward": "+{xp} XP",
+        "editShowcaseTitle": "Edit Achievement Showcase",
+        "editShowcaseDesc": "Select up to 5 achievements to display on your profile. Drag to reorder.",
+        "selected": "Selected",
+        "maximumReached": "Maximum reached",
+        "noAchievementsSelected": "No achievements selected. Choose from below.",
+        "availableAchievements": "Available Achievements",
+        "noEarnedAchievements": "No achievements earned yet.",
+        "allInShowcase": "All earned achievements are in your showcase.",
+        "saving": "Saving...",
+        "saveShowcase": "Save Showcase",
+        "cancel": "Cancel",
+        "pageTitle": "Achievements",
+        "pageDescription": "Explore all achievements, track your progress, and see how you compare with others.",
+        "browse": "Browse",
+        "leaderboard": "Leaderboard",
+        "compare": "Compare",
+        "completion": "Completion",
+        "rank": "Rank",
+        "searchAchievements": "Search achievements...",
+        "allCategories": "All Categories",
+        "allRarities": "All Rarities",
+        "byUnlockPercentage": "By Unlock %",
+        "showing": "Showing",
+        "noMatchingAchievements": "No achievements match your filters.",
+        "achievementLeaderboard": "Achievement Leaderboard",
+        "usersRanked": "users ranked by",
+        "byAchievements": "By Achievements",
+        "byXp": "By XP",
+        "page": "Page",
+        "previous": "Previous",
+        "next": "Next",
+        "noUsersOnLeaderboard": "No users on the leaderboard yet.",
+        "compareAchievements": "Compare Achievements",
+        "compareDescription": "Search for a user to compare your achievements with theirs.",
+        "searchByUsername": "Search by username...",
+        "search": "Search",
+        "searching": "Searching...",
+        "comparingWith": "Comparing with",
+        "youHaveTheyDont": "You have, they don't",
+        "bothHave": "Both have",
+        "theyHaveYouDont": "They have, you don't",
+        "yourUniqueAchievements": "Your Unique Achievements",
+        "achievementsYouHave": "Achievements you have that {username} doesn't have yet",
+        "achievementsToEarn": "Achievements to Earn",
+        "achievementsTheyHave": "Achievements {username} has that you could earn",
+        "sharedAchievements": "Shared Achievements",
+        "achievementsBothHave": "Achievements you both have earned",
+        "loginToCompare": "Please log in to compare achievements with other users.",
+        "searchToCompare": "Search for a user above to compare achievements.",
+        "unlockedBy": "Unlocked by {percentage}% of users",
+        "notification": {
+            "title": "Achievement Unlocked!",
+            "dismiss": "Dismiss",
+            "viewAll": "View All Achievements"
+        },
+        "names": {
+            "FIRST_SOLVE": "First Steps",
+            "SOLVE_10": "Getting Started",
+            "SOLVE_50": "Problem Hunter",
+            "SOLVE_100": "Century Club",
+            "SOLVE_250": "Problem Expert",
+            "SOLVE_500": "Problem Master",
+            "PERFECT_EASY": "Easy Perfectionist",
+            "PERFECT_MEDIUM": "Medium Perfectionist",
+            "PERFECT_HARD": "Hard Perfectionist",
+            "VERSATILE_SOLVER": "Versatile Solver",
+            "SPEED_DEMON": "Speed Demon",
+            "FIRST_BLOOD": "First Blood",
+            "FIRST_COMPETITION": "Competitor",
+            "COMPETE_5": "Regular Competitor",
+            "COMPETE_10": "Seasoned Competitor",
+            "COMPETE_25": "Competition Veteran",
+            "COMPETE_50": "Competition Legend",
+            "TOP_10_PERCENT": "Elite Performer",
+            "SILVER_MEDALIST": "Silver Medalist",
+            "BRONZE_MEDALIST": "Bronze Medalist",
+            "PODIUM_FINISHER": "Podium Finisher",
+            "CHAMPION": "Champion",
+            "STREAK_7": "Week Warrior",
+            "STREAK_14": "Two Week Warrior",
+            "STREAK_30": "Monthly Dedication",
+            "STREAK_100": "Unstoppable",
+            "EARLY_BIRD": "Early Bird",
+            "NIGHT_OWL": "Night Owl",
+            "FIRST_ARTICLE": "Published Voice",
+            "ARTICLE_AUTHOR_5": "Rising Author",
+            "ARTICLE_AUTHOR_10": "Knowledge Builder",
+            "ARTICLE_AUTHOR_25": "Community Scholar",
+            "FIRST_EDITORIAL": "Problem Illuminator",
+            "EDITORIAL_AUTHOR_10": "Editorial Mentor"
+        },
+        "descriptions": {
+            "FIRST_SOLVE": "Solve your first problem",
+            "SOLVE_10": "Solve 10 problems",
+            "SOLVE_50": "Solve 50 problems",
+            "SOLVE_100": "Solve 100 problems",
+            "SOLVE_250": "Solve 250 problems",
+            "SOLVE_500": "Solve 500 problems",
+            "PERFECT_EASY": "Achieve 100% on an Easy problem",
+            "PERFECT_MEDIUM": "Achieve 100% on a Medium problem",
+            "PERFECT_HARD": "Achieve 100% on a Hard problem",
+            "VERSATILE_SOLVER": "Solve problems of all difficulty levels with 100% score",
+            "SPEED_DEMON": "Solve a problem within 10 minutes of competition start",
+            "FIRST_BLOOD": "Be the first to solve a problem in a competition",
+            "FIRST_COMPETITION": "Participate in your first competition",
+            "COMPETE_5": "Participate in 5 competitions",
+            "COMPETE_10": "Participate in 10 competitions",
+            "COMPETE_25": "Participate in 25 competitions",
+            "COMPETE_50": "Participate in 50 competitions",
+            "TOP_10_PERCENT": "Finish in the top 10% of a competition",
+            "SILVER_MEDALIST": "Win second place in a competition",
+            "BRONZE_MEDALIST": "Win third place in a competition",
+            "PODIUM_FINISHER": "Finish in the top 3 of a competition",
+            "CHAMPION": "Win first place in a competition",
+            "STREAK_7": "Maintain a 7-day submission streak",
+            "STREAK_14": "Maintain a 14-day submission streak",
+            "STREAK_30": "Maintain a 30-day submission streak",
+            "STREAK_100": "Maintain a 100-day submission streak",
+            "EARLY_BIRD": "Submit a solution before 8 AM",
+            "NIGHT_OWL": "Submit a solution after midnight",
+            "FIRST_ARTICLE": "Be credited on your first published article",
+            "ARTICLE_AUTHOR_5": "Be credited on 5 published articles",
+            "ARTICLE_AUTHOR_10": "Be credited on 10 published articles",
+            "ARTICLE_AUTHOR_25": "Be credited on 25 published articles",
+            "FIRST_EDITORIAL": "Be credited on your first published problem editorial",
+            "EDITORIAL_AUTHOR_10": "Be credited on 10 published problem editorials"
+        },
+        "categories": {
+            "PROBLEM_SOLVING": "Problem Solving",
+            "COMPETITION": "Competition",
+            "ENGAGEMENT": "Engagement",
+            "SOCIAL": "Social",
+            "SPECIAL": "Special"
+        },
+        "rarities": {
+            "COMMON": "Common",
+            "UNCOMMON": "Uncommon",
+            "RARE": "Rare",
+            "EPIC": "Epic",
+            "LEGENDARY": "Legendary"
+        }
+    },
+    "level": {
+        "level": "Level",
+        "levelProgress": "Level Progress",
+        "totalXp": "Total XP",
+        "xpProgress": "{current} / {needed} XP",
+        "xpProgressShort": "{current}/{needed}",
+        "progressPercent": "{percent}% to next level",
+        "viewAchievements": "View Achievements",
+        "maxLevel": "Max Level",
+        "maxLevelAchieved": "Maximum Level Achieved!",
+        "tierNovice": "Novice",
+        "tierApprentice": "Apprentice",
+        "tierExpert": "Expert",
+        "tierMaster": "Master",
+        "tierLegend": "Legend",
+        "levelUp": "Level Up!",
+        "newLevel": "You reached Level {level}!",
+        "tierChange": "New Tier: {tier}!",
+        "newTierUnlocked": "New Tier Unlocked: {tier}!",
+        "xpEarned": "+{xp} XP earned",
+        "from": "From",
+        "to": "To",
+        "levelBadgeAriaLabel": "Level {level} - {tier} tier",
+        "progressAriaLabel": "Level {level} progress: {current} of {needed} XP ({percent}%)",
+        "maxLevelAriaLabel": "Level {level} - Maximum level achieved with {totalXp} total XP",
+        "notification": {
+            "title": "Level Up!",
+            "dismiss": "Dismiss notification",
+            "levelAdvanced": "You advanced from level {from} to level {to}.",
+            "tierReached": "You reached the {tier} tier!"
+        },
+        "tiers": {
+            "NOVICE": "Novice",
+            "APPRENTICE": "Apprentice",
+            "EXPERT": "Expert",
+            "MASTER": "Master",
+            "LEGEND": "Legend"
+        },
+        "tierDescriptions": {
+            "NOVICE": "Levels 1-10: Beginning your journey",
+            "APPRENTICE": "Levels 11-20: Building your skills",
+            "EXPERT": "Levels 21-30: Mastering the fundamentals",
+            "MASTER": "Levels 31-40: Achieving excellence",
+            "LEGEND": "Levels 41-50: Legendary status"
+        }
+    },
+    "filters": {
+        "title": "Filters",
+        "filters": "Filters",
+        "search": "Search",
+        "searchPlaceholder": "Search problems...",
+        "searchAriaLabel": "Search problems by name",
+        "clearSearch": "Clear search",
+        "difficulty": "Difficulty",
+        "categories": "Categories",
+        "noCategories": "No categories available",
+        "loadingCategories": "Loading categories...",
+        "competitions": "Competitions",
+        "noCompetitions": "No competitions available",
+        "loadingCompetitions": "Loading competitions...",
+        "attemptedStatus": "Attempted Status",
+        "allProblems": "All Problems",
+        "attempted": "Attempted",
+        "unattempted": "Not Attempted",
+        "clearAll": "Clear all filters",
+        "clearAllAriaLabel": "Clear all active filters",
+        "openFilters": "Open filters",
+        "panelAriaLabel": "Problem filters panel",
+        "activeFilters": "Active filters",
+        "activeFiltersCount": "{count, plural, =1 {1 active filter} other {# active filters}}",
+        "removeFilter": "Remove filter",
+        "noResults": "No problems found",
+        "noResultsDescription": "Try adjusting your filters or search query",
+        "resultsCount": "{count, plural, =0 {No problems} =1 {1 problem} other {# problems}}",
+        "problemsCount": "{count, plural, =1 {problem} other {problems}}",
+        "applyingFilters": "Applying filters..."
+    },
+    "requiredFields": {
+        "title": "Missing Required Fields",
+        "description": "This competition requires some additional information to be completed before you can participate fully.",
+        "completeNow": "Complete Now",
+        "dialog": {
+            "title": "Required Information",
+            "description": "Please provide the following information required for {competitionName}."
+        },
+        "fields": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "name": "Full Name",
+            "grade": "Grade",
+            "phone": "Phone Number",
+            "competitionId": "Institution",
+            "institutionId": "Institution",
+            "coordinatorTeacher": "Coordinator Teacher",
+            "schoolTeacher": "Coordinator Teacher"
+        },
+        "selectInstitution": "Select Institution",
+        "loading": "Checking required information...",
+        "loadErrorTitle": "We couldn't check the required information",
+        "loadErrorDescription": "Try again before continuing with this competition.",
+        "success": "Information updated successfully",
+        "error": "Failed to update information",
+        "updateValues": "Update Required Fields"
+    },
+    "antiCheat": {
+        "badge": {
+            "label": "Anti-Cheat",
+            "ariaLabel": "This competition has anti-cheat monitoring enabled",
+            "tooltipTitle": "Anti-Cheat Protected",
+            "tooltipDescription": "This competition requires the MLCompete Companion App to monitor browser activity and running processes during participation."
+        },
+        "indicator": {
+            "title": "Anti-Cheat Monitoring",
+            "description": "This competition uses anti-cheat monitoring to ensure fair play. Participants must install and run the MLCompete Companion App.",
+            "requirements": "Requirements",
+            "requirementsList": {
+                "companionApp": "Install the MLCompete Companion App",
+                "keepRunning": "Keep the app running during the competition",
+                "consent": "Provide consent for activity monitoring"
+            },
+            "monitoringScope": "Monitoring Scope",
+            "monitoringScopeList": {
+                "browserUrls": "Active browser URLs (checked against whitelist)",
+                "processes": "Running processes (checked against blacklist)",
+                "heartbeat": "Connection status (periodic heartbeat)"
+            },
+            "privacyNote": "Privacy Note: Only URLs and process names are collected. No page content, keystrokes, or screen captures are recorded."
+        },
+        "rules": {
+            "title": "Anti-Cheat Rules",
+            "description": "This competition is protected by the MLCompete Anti-Cheat System. By participating, you agree to the following:",
+            "rule1": "You must install and run the MLCompete Companion App throughout the competition",
+            "rule2": "Your browser activity will be monitored against an allowed website whitelist",
+            "rule3": "Running processes will be checked against a prohibited applications blacklist",
+            "rule4": "Violations may result in automatic disqualification",
+            "rule5": "Logging out and back in during the competition may trigger disqualification"
+        },
+        "installModal": {
+            "title": "Anti-Cheat Companion App Required",
+            "description": "This competition requires the MLCompete Companion App to ensure fair play. Please install and run the app before joining.",
+            "downloadSection": {
+                "title": "Download Companion App",
+                "description": "Choose your operating system to download the installer:",
+                "windows": "Windows",
+                "windowsDesc": "Windows 10/11 (64-bit)",
+                "macos": "macOS",
+                "macosDesc": "macOS 11+ (Intel & Apple Silicon)",
+                "linux": "Linux",
+                "linuxDesc": "Ubuntu, Debian, Fedora (64-bit)"
+            },
+            "installSteps": {
+                "title": "Installation Steps",
+                "step1": "Download the installer for your operating system",
+                "step2": "Run the installer and follow the on-screen instructions",
+                "step3": "Launch the MLCompete Companion App",
+                "step4": "Log in with your MLCompete credentials",
+                "step5": "Select this competition from the list"
+            },
+            "dataCollection": {
+                "title": "Data Collection Notice",
+                "description": "The companion app collects the following data during the competition:",
+                "urls": "Active browser URLs (to verify allowed websites)",
+                "processes": "Running process names (to detect prohibited applications)",
+                "timestamps": "Activity timestamps (for violation tracking)",
+                "privacyNote": "We do NOT collect: page content, keystrokes, screen captures, or personal files."
+            },
+            "consent": {
+                "label": "I understand and agree to the data collection described above",
+                "privacyLink": "View Privacy Policy"
+            },
+            "buttons": {
+                "cancel": "Cancel",
+                "confirm": "I have installed and connected",
+                "connecting": "Checking connection..."
+            },
+            "errors": {
+                "notConnected": "Companion app not detected. Please ensure the app is running and connected.",
+                "consentRequired": "You must agree to the data collection terms to continue."
+            },
+            "status": {
+                "connected": "Companion app connected",
+                "disconnected": "Companion app not connected",
+                "checking": "Checking connection status..."
+            }
+        },
+        "disqualificationModal": {
+            "title": "You Have Been Disqualified",
+            "description": "Your participation in this competition has been terminated due to a rule violation.",
+            "competitionLabel": "Competition",
+            "reasonLabel": "Reason",
+            "timestampLabel": "Disqualified at",
+            "warningMessage": "You can no longer access competition problems or submit solutions for this competition.",
+            "acknowledgeButton": "I Understand",
+            "contactSupport": "If you believe this is an error, please contact the competition organizers."
+        },
+        "disqualification": {
+            "bannerTitle": "You Are Disqualified",
+            "bannerDescription": "You have been disqualified from this competition. You cannot submit solutions while the competition is ongoing.",
+            "reason": "Reason",
+            "disqualifiedAt": "Disqualified at",
+            "submissionBlocked": "Submissions are blocked because you are disqualified from this competition."
+        },
+        "statusIndicator": {
+            "connected": "Connected",
+            "monitoring": "Monitoring",
+            "interrupted": "Interrupted",
+            "disconnected": "Disconnected",
+            "connectedTooltip": "The companion app is connected and ready to monitor.",
+            "monitoringTooltip": "The companion app is actively monitoring your activity during the competition.",
+            "interruptedTooltip": "Connection to the companion app was interrupted. Please ensure the app is running.",
+            "disconnectedTooltip": "The companion app is not connected. Please start the app and log in."
+        },
+        "companionStatus": {
+            "checking": "Checking connection status...",
+            "connected": "Companion app connected",
+            "connectedWithMode": "Companion app connected ({mode})",
+            "disconnected": "Companion app not connected",
+            "modeLabel": "Mode",
+            "modes": {
+                "PreJoin": "Pre-Join",
+                "Active": "Active Monitoring",
+                "Inactive": "Inactive"
+            },
+            "instructions": {
+                "title": "To connect:",
+                "step1": "Download the MLCompete Companion App",
+                "step2": "Launch the app and log in",
+                "step3": "Select this competition in the app",
+                "refresh": "Check Connection",
+                "checking": "Checking...",
+                "download": "Download App"
+            }
+        },
+        "connectionGate": {
+            "checking": "Checking companion app connection...",
+            "retry": "Try Again",
+            "connected": "Companion app connected",
+            "notConnected": {
+                "title": "Companion App Required",
+                "description": "This competition requires the MLCompete Companion App to be running. Please start the app and log in to access competition content.",
+                "steps": {
+                    "title": "To continue:",
+                    "step1": "Download and install the MLCompete Companion App",
+                    "step2": "Launch the app and log in with your account",
+                    "step3": "Select this competition in the app"
+                },
+                "checkAgain": "Check Connection",
+                "download": "Download App",
+                "startSetup": "Start Setup"
+            },
+            "interrupted": {
+                "title": "Connection Interrupted",
+                "description": "The connection to your companion app was lost. Please ensure the app is running to avoid disqualification.",
+                "lastSeen": "Last heartbeat: {seconds} seconds ago",
+                "checkNow": "Check Now"
+            }
+        },
+        "onboardingGate": {
+            "title": "Secure Browser Setup Required",
+            "sebTitle": "Safe Exam Browser Setup",
+            "description": "Complete the following steps to join {competitionName}.",
+            "sebDescription": "This competition requires Safe Exam Browser (SEB) — a secure browser that prevents access to other applications during the exam. Follow the steps below to get started.",
+            "setupOnlyTitle": "Complete Secure Browser Setup",
+            "setupOnlyDescription": "You have been added to {competitionName}. Complete the following steps to set up Safe Exam Browser and access competition problems.",
+            "cancelButton": "Cancel",
+            "loading": "Checking setup status...",
+            "errorLoading": "Unable to check your setup status. Please try again.",
+            "retry": "Try Again",
+            "stepIndicator": {
+                "ariaLabel": "Setup progress",
+                "stepComplete": "{step} - Complete",
+                "stepActive": "{step} - Current step",
+                "stepPending": "{step} - Pending"
+            },
+            "steps": {
+                "sebDownload": {
+                    "title": "Download Safe Exam Browser",
+                    "description": "Safe Exam Browser (SEB) is a free, secure browser used for online exams. Download and install it for your device.",
+                    "downloadFor": "Download for {platform}",
+                    "platforms": {
+                        "windows": "Windows",
+                        "macos": "macOS",
+                        "ios": "iOS/iPadOS"
+                    },
+                    "platformDesc": {
+                        "windows": "Windows 10/11 (64-bit)",
+                        "macos": "macOS 11 Big Sur or newer",
+                        "ios": "iOS/iPadOS 12 or newer"
+                    },
+                    "noLinux": "Safe Exam Browser is not available for Linux. Please use a Windows, macOS, or iOS device to participate.",
+                    "confirmButton": "I have installed SEB",
+                    "learnMore": "Learn more about Safe Exam Browser"
+                },
+                "install": {
+                    "title": "Install & Launch",
+                    "description": "Install Safe Exam Browser on your device and make sure it launches correctly.",
+                    "confirmButton": "I have installed and launched SEB",
+                    "step1": "Open the downloaded installer file",
+                    "step2": "Follow the on-screen instructions to complete the installation",
+                    "step3": "Launch Safe Exam Browser once to verify it works"
+                },
+                "sebConfig": {
+                    "title": "Download Competition Config",
+                    "description": "Download the configuration file that connects Safe Exam Browser to this competition.",
+                    "downloadButton": "Download SEB Config File",
+                    "instructions": "After downloading, double-click the .seb file. This will automatically open Safe Exam Browser with the correct settings for this competition.",
+                    "confirmButton": "I have opened the config file"
+                },
+                "consent": {
+                    "title": "Agree & Join",
+                    "description": "Review the exam conditions and confirm to join the competition.",
+                    "sebWarningTitle": "Important — Please read carefully",
+                    "sebWarning1": "Once you start, Safe Exam Browser will lock your screen to the competition page. You will not be able to switch to other applications.",
+                    "sebWarning2": "Closing or quitting Safe Exam Browser during the competition will result in automatic disqualification.",
+                    "sebWarning3": "Make sure you have a stable internet connection before starting.",
+                    "sebCheckboxLabel": "I understand that quitting Safe Exam Browser during the competition will disqualify me, and I agree to participate under these conditions",
+                    "privacyLink": "View Privacy Policy",
+                    "joinButton": "Join Competition",
+                    "joining": "Joining...",
+                    "completeSetupButton": "Complete Setup",
+                    "completing": "Completing..."
+                }
+            },
+            "errors": {
+                "consentRequired": "You must agree to the exam conditions to continue.",
+                "joinFailed": "Failed to join competition. Please try again."
+            }
+        },
+        "problemAccessGate": {
+            "checking": "Checking anti-cheat status...",
+            "onboardingRequired": {
+                "title": "Anti-Cheat Setup Required",
+                "description": "You must complete the anti-cheat setup before accessing problems in {competitionName}.",
+                "startButton": "Start Setup"
+            },
+            "connectionLost": {
+                "title": "Connection Lost",
+                "description": "The connection to your companion app was lost. Please ensure the app is running to avoid disqualification.",
+                "lastSeen": "Last heartbeat: {seconds} seconds ago",
+                "reconnect": "Check Connection"
+            }
+        },
+        "setupRequired": {
+            "title": "Setup Required",
+            "description": "You have been added to this competition but need to complete the anti-cheat setup before accessing problems.",
+            "completeSetup": "Complete Setup"
+        }
+    },
+    "seb": {
+        "badge": {
+            "label": "SEB Required",
+            "ariaLabel": "This competition requires Safe Exam Browser",
+            "tooltipTitle": "Safe Exam Browser Required",
+            "tooltipDescription": "You must use Safe Exam Browser to participate in this competition."
+        },
+        "download": {
+            "title": "Safe Exam Browser Required",
+            "description": "This competition requires Safe Exam Browser (SEB) for secure participation.",
+            "whatIsSeb": "SEB is a secure browser that prevents access to other applications during the competition.",
+            "downloadConfig": "Download SEB Config",
+            "downloadConfigDescription": "Download this file and open it with SEB to start the competition.",
+            "installers": {
+                "title": "Install Safe Exam Browser",
+                "windows": "Windows",
+                "macos": "macOS",
+                "ios": "iOS/iPadOS"
+            },
+            "steps": {
+                "title": "How to participate",
+                "step1": "Install Safe Exam Browser for your platform",
+                "step2": "Download the competition configuration file below",
+                "step3": "Open the .seb file to launch SEB in kiosk mode",
+                "step4": "Log in and complete the competition"
+            }
+        }
+    },
+    "joinConfirmation": {
+        "title": "Internet Restrictions",
+        "description": "Joining {competitionName} will enable internet restrictions on your device:",
+        "restrictions": {
+            "title": "Limited Internet Access",
+            "description": "Your internet access will be restricted to whitelisted websites only. This ensures fair competition by preventing access to unauthorized resources."
+        },
+        "blockedCategories": {
+            "title": "Blocked Website Categories",
+            "item1": "Social media and messaging platforms",
+            "item2": "AI assistants and code generation tools",
+            "item3": "All other non-whitelisted websites"
+        },
+        "automaticRemoval": {
+            "title": "Automatic Removal",
+            "description": "These restrictions will be automatically removed when the competition ends or when you leave the competition. Your normal internet access will be restored."
+        },
+        "cancel": "Cancel",
+        "acceptAndJoin": "Accept and Join"
+    },
+    "problemProposals": {
+        "eyebrow": "Problem lab",
+        "title": "Turn a strong idea into the next challenge",
+        "description": "Build a complete problem proposal, test its evaluator in an isolated validation run, and send one reviewed package to the platform team.",
+        "newProposal": "New problem proposal",
+        "evaluatorGuide": "Evaluator guide",
+        "untitled": "Untitled problem",
+        "noSummary": "Add a short summary to explain the challenge.",
+        "updated": "Updated {date}",
+        "stats": {
+            "total": "Total",
+            "inReview": "In review",
+            "needsWork": "Needs changes"
+        },
+        "safety": {
+            "title": "Private until an administrator approves it",
+            "description": "Ground truth, evaluator code, and validation submissions are restricted to reviewers. Approval imports a problem draft into the admin panel and never publishes it automatically."
+        },
+        "library": {
+            "title": "Your proposals",
+            "description": "Continue a draft, run validation, or respond to reviewer feedback."
+        },
+        "empty": {
+            "title": "Your first problem can start here",
+            "description": "Bring the idea, statement, files, evaluator, and scoring model together. You can save a private draft before everything is ready.",
+            "action": "Start a proposal"
+        },
+        "readiness": {
+            "label": "Proposal readiness"
+        },
+        "difficulty": {
+            "EASY": "Easy",
+            "MEDIUM": "Medium",
+            "HARD": "Hard"
+        },
+        "status": {
+            "DRAFT": "Draft",
+            "PENDING": "In review",
+            "CHANGES_REQUESTED": "Changes requested",
+            "APPROVED": "Accepted · publication pending",
+            "REJECTED": "Not approved"
+        },
+        "pagination": {
+            "label": "Problem proposal pages",
+            "previous": "Previous page",
+            "next": "Next page",
+            "page": "Page {page} of {pages}"
+        },
+        "access": {
+            "title": "Problem proposals are unavailable for this account",
+            "description": "Your account cannot access the participant proposal workspace yet."
+        },
+        "error": {
+            "title": "Your problem proposals could not be loaded",
+            "description": "The proposal workspace is temporarily unavailable. Please try again.",
+            "retry": "Try again"
+        },
+        "steps": {
+            "label": "Problem proposal steps",
+            "idea": {
+                "short": "Idea",
+                "title": "Define the challenge",
+                "description": "Give reviewers the shortest accurate view of what participants will learn and produce."
+            },
+            "statement": {
+                "short": "Statement",
+                "title": "Write the participant-facing statement",
+                "description": "Explain the task, data, expected output, constraints, and examples. Markdown, tables, formulas, and code blocks are supported."
+            },
+            "files": {
+                "short": "Files",
+                "title": "Assemble the review package",
+                "description": "Each file has a fixed role and visibility. Private evaluation assets are never exposed to participants."
+            },
+            "evaluator": {
+                "short": "Evaluator",
+                "title": "Validate the evaluator contract",
+                "description": "Run the evaluator against your sample and ground truth before asking an administrator to review it."
+            },
+            "scoring": {
+                "short": "Scoring",
+                "title": "Make scoring understandable",
+                "description": "Name each subtask and metric exactly as participants should see them in evaluation results."
+            },
+            "review": {
+                "short": "Review",
+                "title": "Send one complete, safe package",
+                "description": "Resolve every readiness check, add useful context for reviewers, then submit the current version."
+            }
+        },
+        "editor": {
+            "back": "Back to my proposals",
+            "newEyebrow": "New problem draft",
+            "editEyebrow": "Editing problem proposal",
+            "saving": "Saving...",
+            "autosavePending": "Autosave pending",
+            "savedLocally": "Recovered locally",
+            "saved": "All changes saved",
+            "save": "Save draft",
+            "previous": "Previous",
+            "next": "Save and continue",
+            "submit": "Submit for review",
+            "resubmit": "Resubmit changes",
+            "cancelReview": "Cancel review",
+            "inReview": "Review in progress",
+            "approved": "Accepted · publication pending",
+            "reviewLockedTitle": "Reviewers are checking this version.",
+            "reviewLockedDescription": "The proposal is read-only while it is in the queue. Cancel the review if you need to edit it again."
+        },
+        "fields": {
+            "title": {
+                "label": "Problem title",
+                "placeholder": "A memorable, precise challenge title"
+            },
+            "summary": {
+                "label": "Short summary",
+                "placeholder": "What must participants build, and what makes the challenge useful?",
+                "help": "This becomes the scan-friendly description in the problem catalog."
+            },
+            "difficulty": {
+                "label": "Expected difficulty"
+            },
+            "evaluationType": {
+                "label": "Submission format",
+                "help": "Choose the format the evaluator receives from participants."
+            },
+            "statement": {
+                "label": "Problem statement",
+                "placeholder": "Start with the objective, then document the data, output, constraints, and examples...",
+                "help": "Keep the statement self-contained. Optional downloadable attachments are managed in Files; never paste temporary upload or download URLs here.",
+                "characters": "{count} characters"
+            },
+            "author": {
+                "title": "Public author credit",
+                "help": "This exact first-name and last-name format is shown if the proposal is approved. You may credit the original problem author.",
+                "firstName": "First name",
+                "lastName": "Last name"
+            },
+            "categories": {
+                "label": "Categories",
+                "help": "Choose the topics that help participants discover the problem. You can select up to 20."
+            },
+            "metricPreference": {
+                "label": "Ranking preference",
+                "help": "This controls how equal or competing metric values are ordered on leaderboards."
+            }
+        },
+        "metricPreference": {
+            "BIGGER_IS_BETTER": "Higher metric is better",
+            "SMALLER_IS_BETTER": "Lower metric is better",
+            "FASTER_SUBMISSION_IS_BETTER": "Earlier submission breaks ties"
+        },
+        "files": {
+            "privacyNotice": "Files marked reviewer-only are delivered through private, expiring access. Do not include passwords, access tokens, personal data, or third-party secrets in any upload.",
+            "reviewersOnly": "Reviewers only",
+            "publicAfterApproval": "Public after approval",
+            "maxSize": "Maximum {size}",
+            "choose": "Choose file",
+            "uploading": "Preparing secure upload...",
+            "hashing": "Checking file {percent}%",
+            "missing": "No file uploaded yet.",
+            "tooLarge": "This file exceeds the {size} limit.",
+            "open": "Open {name}",
+            "delete": "Delete {name}",
+            "statementImages": "Supporting files are downloadable attachments only. Never paste their temporary upload or download URLs into the statement.",
+            "roles": {
+                "PUBLIC_DATASET": {
+                    "title": "Participant dataset",
+                    "description": "The dataset or starter archive participants receive when the problem is published."
+                },
+                "GROUND_TRUTH": {
+                    "title": "Ground truth",
+                    "description": "The private expected values used by the evaluator. Upload CSV, TXT, JSON, or ZIP independently of the participant submission format."
+                },
+                "EVALUATOR_SCRIPT": {
+                    "title": "Custom evaluator",
+                    "description": "A Python file that implements the current evaluator contract."
+                },
+                "SAMPLE_SUBMISSION": {
+                    "title": "Sample submission",
+                    "description": "A private validation example that must match the selected submission format. It is deleted automatically after review and is never published."
+                },
+                "REFERENCE_SUBMISSION": {
+                    "title": "Reference submission (optional)",
+                    "description": "An optional private known-good output that gives reviewers another way to verify scores and evaluator behavior."
+                },
+                "SUPPORTING_FILE": {
+                    "title": "Supporting file",
+                    "description": "Optional downloadable diagrams, documentation, licenses, or other attachments. They are not embedded into the statement automatically."
+                }
+            }
+        },
+        "evaluator": {
+            "contractSummary": "The current contract runs in an isolated workspace with a {seconds}-second wall-clock limit.",
+            "openGuide": "Open full guide",
+            "validationTitle": "Evaluator validation",
+            "validationDescription": "The platform checks imports, file compatibility, return values, subtasks, time limits, and a reference run without publishing any asset.",
+            "run": "Run validation",
+            "retry": "Retry validation",
+            "running": "Validation running",
+            "staleGuidance": "This request exceeded the validation time limit or no longer matches the saved files. Start a new validation run.",
+            "requiredFiles": "Required for a run",
+            "addFiles": "Go to files"
+        },
+        "validationStatus": {
+            "NOT_RUN": "Not validated yet",
+            "QUEUED": "Queued",
+            "RUNNING": "Running",
+            "PASSED": "Validation passed",
+            "FAILED": "Validation failed",
+            "STALE": "Validation is outdated"
+        },
+        "scoring": {
+            "subtasksTitle": "Subtasks and metrics",
+            "subtasksDescription": "The function names remain subtask1, subtask2, and so on. These labels explain their results.",
+            "addSubtask": "Add subtask",
+            "defaultSubtask": "Subtask {number}",
+            "name": "Subtask name",
+            "metric": "Metric label",
+            "metricPlaceholder": "Accuracy, MAE, F1...",
+            "removeSubtask": "Remove subtask {number}"
+        },
+        "review": {
+            "feedbackTitle": "Reviewer feedback",
+            "cancelChangesTitle": "Close this review request?",
+            "cancelChangesDescription": "This keeps your proposal and files, returns it to a normal draft, and removes it from the active review queue.",
+            "cancelChangesAction": "Cancel review request",
+            "checklistTitle": "Readiness checklist",
+            "complete": "Complete",
+            "incomplete": "Incomplete",
+            "status": "Current readiness",
+            "ready": "This version can be submitted.",
+            "notReady": "Complete the remaining steps before submission.",
+            "noteLabel": "Note for reviewers (optional)",
+            "notePlaceholder": "Explain unusual file formats, evaluator decisions, or anything reviewers should test carefully...",
+            "noteHelp": "Do not paste credentials or private links. Reviewers already receive controlled access to private assets.",
+            "deleteDraftTitle": "Delete this unused draft",
+            "deleteDraftDescription": "Available only before the proposal has ever been submitted. The draft and its uploaded files cannot be recovered.",
+            "deleteDraftAction": "Delete draft",
+            "deleteConfirmTitle": "Permanently delete this problem draft?",
+            "deleteConfirmDescription": "This removes the proposal and schedules every uploaded file for secure deletion. This action cannot be undone.",
+            "deleteConfirmCancel": "Keep draft",
+            "deleteConfirmAction": "Delete permanently",
+            "acceptedTitle": "Accepted for the problem catalog",
+            "publicationPending": "An administrator now has a hidden problem draft to prepare. It will become available to participants only after a separate publication step; no action is required from you.",
+            "checks": {
+                "idea": {
+                    "title": "Clear idea",
+                    "description": "The title and summary explain the participant task."
+                },
+                "statement": {
+                    "title": "Complete statement",
+                    "description": "The participant-facing specification has enough detail to solve the task."
+                },
+                "files": {
+                    "title": "Required files",
+                    "description": "Dataset, ground truth, evaluator, and sample submission are present. A reference submission is optional."
+                },
+                "evaluator": {
+                    "title": "Current validation",
+                    "description": "The latest saved version passed isolated evaluator validation."
+                },
+                "scoring": {
+                    "title": "Scoring labels",
+                    "description": "Every subtask has a visible name and metric."
+                }
+            }
+        },
+        "validation": {
+            "title": "Add a title with at least 3 characters.",
+            "summary": "Add a short summary with at least 20 characters.",
+            "statement": "Write at least 80 characters in the problem statement.",
+            "authorFirstName": "Add the author's first name.",
+            "authorLastName": "Add the author's last name.",
+            "notReady": "Complete every readiness check before submitting this version."
+        },
+        "errors": {
+            "save": "The problem draft could not be saved.",
+            "upload": "The file could not be uploaded.",
+            "deleteAsset": "The file could not be removed.",
+            "deleteProposal": "The problem draft could not be deleted.",
+            "validation": "Evaluator validation could not be started.",
+            "action": "The review request could not be updated.",
+            "editorParse": "The visual editor could not read part of this Markdown. Switch to Markdown mode to correct it without losing the source.",
+            "conflict": "A newer proposal version exists. Reload it before continuing so no work is overwritten.",
+            "forbidden": "You no longer have access to edit this proposal.",
+            "pendingLimit": "You already have the maximum number of proposals awaiting review. Wait for a decision or cancel one request.",
+            "reload": "Reload latest version"
+        },
+        "toasts": {
+            "saved": "Problem draft saved",
+            "fileUploaded": "File uploaded securely",
+            "validationStarted": "Evaluator validation started",
+            "submitted": "Proposal sent for review",
+            "cancelled": "Review request cancelled",
+            "deleted": "Problem draft deleted"
+        },
+        "guide": {
+            "back": "Back to problem proposals",
+            "eyebrow": "Evaluator contract v{version}",
+            "title": "Write an evaluator reviewers can trust",
+            "description": "Use the published function contract and a minimal deterministic implementation. The validation run checks compatibility in the same constrained environment used during review.",
+            "contract": {
+                "title": "Required Python contract",
+                "hash": "Contract fingerprint",
+                "entrypoint": "Main entry point",
+                "returns": "Return value",
+                "subtasks": "Optional subtasks",
+                "routing": "Manual routing flag",
+                "signatures": "All supported input combinations",
+                "signatureCase": "{number}. Submission: {submission}; ground truth: {groundTruth}",
+                "inputKind": {
+                    "TABULAR": "CSV, TXT, JSON, NPY, or NPZ dataframe",
+                    "ZIP": "extracted ZIP directory"
+                }
+            },
+            "template": {
+                "title": "Starter template",
+                "copy": "Copy template",
+                "copied": "Copied"
+            },
+            "files": {
+                "title": "Build a reproducible test bundle",
+                "optional": "Optional",
+                "localTest": "Local test command",
+                "dataset": {
+                    "title": "Participant dataset",
+                    "description": "Upload the exact public dataset or starter archive participants need to solve the task."
+                },
+                "evaluator": {
+                    "title": "Evaluator script",
+                    "description": "Provide evaluator.py with one of the four supported signatures and the required four-value return shape."
+                },
+                "groundTruth": {
+                    "title": "Ground truth",
+                    "description": "Use representative private rows with the exact columns and types expected by the evaluator."
+                },
+                "sample": {
+                    "title": "Sample submission",
+                    "description": "Provide a private known-good test submission for validation. It is deleted automatically after review and is never published."
+                },
+                "reference": {
+                    "title": "Reference submission",
+                    "description": "Optionally include another private known-good output whose score you can explain. It is deleted automatically after review."
+                }
+            },
+            "security": {
+                "title": "The evaluator is code, not a place for secrets",
+                "description": "Validation runs without outbound network access and with strict resource limits. Keep evaluation deterministic and restricted to the provided dataframes and workspace."
+            },
+            "limits": {
+                "title": "Runtime limits",
+                "timeout": "Wall-clock time",
+                "seconds": "{count} seconds",
+                "script": "Evaluator file"
+            },
+            "libraries": {
+                "title": "Available libraries"
+            },
+            "formats": {
+                "title": "Supported data formats"
+            },
+            "start": "Start a problem proposal"
+        }
+    },
+    "organizerDataConsent": {
+        "title": "Share additional account and registration details with {organizer}",
+        "thirdPartyExplanation": "{organizer} is the independent third-party organizer of this competition. If you opt in, MLCompete will provide the following details only so the organizer can verify and manage your participation in this competition, when they are available in your account or competition registration:",
+        "fields": {
+            "email": "Email address",
+            "name": "First and last name",
+            "grade": "Grade",
+            "institution": "Institution"
+        },
+        "publicIdentityNotice": "Your public display name, username, and participation status remain visible to the organizer either way. This choice controls only the additional details listed above.",
+        "optionalAndReversible": "This is optional and does not affect joining. You can change it later. Turning sharing off stops MLCompete from showing these additional details to the organizer in the future, but it cannot undo access that already occurred. If local law requires a parent or guardian to authorize this choice, ask them before opting in.",
+        "explicitConsent": "I explicitly consent to MLCompete providing these additional account and registration details to {organizer}.",
+        "settings": {
+            "title": "Organizer data sharing",
+            "controlLabel": "Share details",
+            "shared": "Sharing on",
+            "notShared": "Not shared",
+            "saving": "Saving…",
+            "error": "Your choice could not be saved. It has not been changed."
+        }
+    },
+    "competitionHosting": {
+        "hub": {
+            "eyebrow": "Competition hosting",
+            "title": "Run a competition with your community",
+            "description": "Request free hosting, prepare reviewed problems, and manage participants from one workspace.",
+            "newRequest": "Request free hosting",
+            "participants": "participants",
+            "noDescription": "No short description yet.",
+            "updated": "Updated {date}",
+            "managed": {
+                "title": "Competitions you manage",
+                "description": "Approved competitions where you control details, problems, invitations, and participants.",
+                "emptyTitle": "No managed competitions yet",
+                "emptyDescription": "An approved hosting request will appear here."
+            },
+            "requests": {
+                "title": "Hosting requests",
+                "description": "Drafts and requests currently being reviewed by the MLCompete team.",
+                "emptyTitle": "You have not requested a competition",
+                "emptyDescription": "Describe the event and its schedule. Hosting on MLCompete is free."
+            }
+        },
+        "pagination": {
+            "label": "{section} pages",
+            "page": "Page {page} of {pages}",
+            "previous": "Previous",
+            "next": "Next"
+        },
+        "status": {
+            "DRAFT": "Draft",
+            "PENDING": "In review",
+            "CHANGES_REQUESTED": "Changes requested",
+            "APPROVED": "Approved",
+            "REJECTED": "Not approved",
+            "CANCELLED": "Cancelled"
+        },
+        "lifecycle": {
+            "UPCOMING": "Upcoming",
+            "ONGOING": "Ongoing",
+            "ENDED": "Ended"
+        },
+        "requestMode": {
+            "COMPETITION_ONLY": {
+                "title": "Competition first",
+                "short": "Problems added after approval",
+                "description": "Request the competition now. After approval, submit each problem for review from its organizer workspace."
+            },
+            "WITH_PROBLEMS": {
+                "title": "Competition with problems",
+                "short": "Competition and problems together",
+                "description": "Prepare the competition and at least one complete problem proposal before sending the request."
+            }
+        },
+        "requestEditor": {
+            "back": "Back to my competitions",
+            "newEyebrow": "New hosting request",
+            "editEyebrow": "Hosting request",
+            "untitled": "Untitled competition",
+            "feedback": "Reviewer feedback",
+            "format": {
+                "title": "Choose how to start",
+                "description": "You can request only the competition or include reviewed problem proposals from the beginning."
+            },
+            "details": { "title": "Competition details" },
+            "settings": { "title": "Schedule and settings" },
+            "problems": {
+                "title": "Problems",
+                "withProblems": "At least one linked problem must be submitted for review before this hosting request can be sent.",
+                "later": "Once this request is approved, add and submit problems from the competition workspace.",
+                "add": "Add a problem",
+                "untitled": "Untitled problem",
+                "empty": "No problem proposals are linked yet."
+            },
+            "readiness": {
+                "title": "Ready for review",
+                "identity": "Name and summary",
+                "schedule": "Future schedule, up to 180 days",
+                "details": "Description and rules",
+                "problem": "One submitted problem"
+            }
+        },
+        "fields": {
+            "name": "Competition name",
+            "shortDescription": "Short description",
+            "description": "Full description",
+            "rules": "Rules",
+            "startTime": "Starts",
+            "endTime": "Ends",
+            "competitionType": "Scoring mode",
+            "access": "Access",
+            "selectionLimit": "Submissions selected per problem",
+            "commentsEnabled": "Enable discussion",
+            "commentsEnabledHelp": "Participants can use the competition discussion features.",
+            "allowPublicQuestions": "Allow public questions",
+            "allowPublicQuestionsHelp": "Approved questions may be visible to every participant."
+        },
+        "competitionType": {
+            "CLASSIC": "Classic, final scores hidden until the end",
+            "CASUAL": "Casual, final scores visible immediately"
+        },
+        "access": {
+            "PRIVATE": "Invite only",
+            "PUBLIC": "Publicly discoverable"
+        },
+        "actions": {
+            "save": "Save draft",
+            "saveChanges": "Save changes",
+            "cancelReview": "Cancel review",
+            "manageCompetition": "Manage competition",
+            "resubmit": "Resubmit changes",
+            "submit": "Submit for review",
+            "createDraft": "Create draft",
+            "delete": "Delete draft"
+        },
+        "deleteDialog": {
+            "title": "Delete this hosting request?",
+            "description": "The draft will be permanently removed. This cannot be undone.",
+            "cancel": "Keep draft",
+            "confirm": "Delete"
+        },
+        "validation": {
+            "name": "Enter a competition name with at least 3 characters.",
+            "problemRequired": "Submit at least one linked problem proposal first.",
+            "notReady": "Complete the required competition details before review."
+        },
+        "toasts": {
+            "saved": "Hosting request saved",
+            "cancelled": "Review cancelled",
+            "submitted": "Hosting request submitted",
+            "deleted": "Draft deleted",
+            "competitionSaved": "Competition updated"
+        },
+        "errors": {
+            "conflict": "This page is out of date. Reload it before making another change.",
+            "save": "The hosting request could not be saved.",
+            "action": "The review request could not be updated.",
+            "delete": "The draft could not be deleted."
+        },
+        "problemStatus": {
+            "DRAFT": "Draft",
+            "PENDING": "In review",
+            "CHANGES_REQUESTED": "Changes requested",
+            "APPROVED": "Approved",
+            "REJECTED": "Not approved"
+        },
+        "problemDifficulty": {
+            "EASY": "Easy",
+            "MEDIUM": "Medium",
+            "HARD": "Hard"
+        },
+        "problemEditor": {
+            "back": "Back to {competition}",
+            "scopeLabel": "Competition problem",
+            "scopeDescription": "This proposal belongs to {competition}. It follows the same technical validation and review as every public problem proposal.",
+            "submit": "Submit problem for review",
+            "approvedTitle": "Problem approved",
+            "approvedDescription": "The reviewed problem is linked to {competition} and will be available according to its competition schedule."
+        },
+        "publicCta": {
+            "title": "Want to host your own competition?",
+            "description": "Hosting is free. Propose the event, submit reviewed problems, and invite participants from your organizer workspace.",
+            "action": "Host a competition for free"
+        },
+        "organizer": {
+            "back": "Back to my competitions",
+            "publicPage": "Open participant page",
+            "eyebrow": "Organizer workspace",
+            "stats": {
+                "status": "Status",
+                "problems": "Problems",
+                "participants": "Participants"
+            },
+            "tabs": {
+                "label": "Competition management",
+                "overview": "Overview",
+                "details": "Details",
+                "problems": "Problems",
+                "participants": "Participants"
+            },
+            "overview": {
+                "title": "Competition overview",
+                "noDescription": "Add a short description so participants understand the event at a glance.",
+                "starts": "Starts",
+                "ends": "Ends",
+                "access": "Format",
+                "attention": "At a glance",
+                "pendingInvites": "Pending invitations",
+                "problemProposals": "Problem proposals",
+                "nextTitle": "Next actions",
+                "actions": {
+                    "inviteTitle": "Invite participants",
+                    "inviteDescription": "Find platform users or send a secure invitation by email.",
+                    "problemTitle": "Submit a problem",
+                    "problemDescription": "Build the dataset and evaluator, then send the problem through review.",
+                    "detailsTitle": "Review competition details",
+                    "detailsDescription": "Keep the schedule, rules, and visibility accurate."
+                }
+            },
+            "details": {
+                "title": "Competition details",
+                "description": "Manage the participant-facing content and the settings currently safe to change.",
+                "permissionTitle": "Organizer controls",
+                "permissionDescription": "Available fields reflect the current competition stage. Changes are protected by version checks.",
+                "locked": "These settings can no longer be changed at this competition stage."
+            },
+            "problems": {
+                "title": "Competition problems",
+                "description": "Every problem stays linked to this competition and passes technical validation and editorial review.",
+                "add": "Add a problem",
+                "emptyTitle": "No problems yet",
+                "emptyDescription": "Start a proposal with its public dataset, evaluator, ground truth, and sample submission."
+            }
+        },
+        "participants": {
+            "invite": {
+                "title": "Invite participants",
+                "description": "Invite an existing MLCompete user without exposing private account data, or send a secure link to an email address.",
+                "mode": {
+                    "PLATFORM_USER": "Platform user",
+                    "EMAIL": "Email address"
+                },
+                "modeLabel": "Invitation recipient",
+                "searchLabel": "Find a user",
+                "searchPlaceholder": "Search by username or name",
+                "clearUser": "Clear selected user",
+                "noUsers": "No available users found.",
+                "emailLabel": "Participant email",
+                "emailPlaceholder": "participant@example.org",
+                "emailHelp": "The recipient can sign in or create an account before accepting the invitation.",
+                "messageLabel": "Message (optional)",
+                "messagePlaceholder": "Add useful context for the participant.",
+                "send": "Send invitation",
+                "locked": "Invitations are available only after the hosting request is approved and while the competition is open for participant management."
+            },
+            "pending": {
+                "title": "Invitations",
+                "description": "Review every invitation and manage the ones that are still pending. Secure links expire after seven days.",
+                "empty": "There are no invitations yet.",
+                "resend": "Resend",
+                "retryEmail": "Retry email",
+                "revoke": "Revoke",
+                "deliveryLabel": "Email delivery",
+                "deliveryAttemptedAt": "· {date}",
+                "delivery": {
+                    "QUEUED": "Email queued",
+                    "SENT": "Email sent",
+                    "FAILED": "Email delivery failed"
+                },
+                "status": {
+                    "PENDING": "Pending",
+                    "ACCEPTED": "Accepted",
+                    "REVOKED": "Revoked",
+                    "EXPIRED": "Expired"
+                }
+            },
+            "list": {
+                "title": "Participants",
+                "count": "{count, plural, one {# active participant} other {# active participants}}",
+                "empty": "No participant has joined yet.",
+                "external": "Participant account",
+                "active": "Active",
+                "removed": "Removed",
+                "removeLabel": "Remove {name}",
+                "profileShared": "Profile shared",
+                "profileNotShared": "Profile not shared",
+                "personalFields": {
+                    "name": "Name",
+                    "email": "Email",
+                    "grade": "Grade",
+                    "institution": "Institution"
+                }
+            },
+            "remove": {
+                "title": "Remove {name}?",
+                "description": "They will lose access to this competition.",
+                "withSubmissions": "They will lose access, but their existing submissions and audit history will be preserved.",
+                "cancel": "Keep participant",
+                "confirm": "Remove"
+            },
+            "errors": {
+                "conflict": "This participant or invitation has already changed. Refresh and try again.",
+                "chooseUser": "Choose a platform user first.",
+                "invitesLocked": "Invitations are not available at this stage of the competition.",
+                "email": "Enter a valid email address.",
+                "emailDeliveryFailed": "The invitation was created, but its email could not be delivered. Retry it from the invitation below.",
+                "invite": "The invitation could not be sent.",
+                "resend": "The invitation could not be resent.",
+                "revoke": "The invitation could not be revoked.",
+                "remove": "The participant could not be removed."
+            },
+            "toasts": {
+                "invited": "Invitation sent",
+                "resent": "Invitation resent",
+                "emailQueued": "Invitation email queued",
+                "emailSent": "Invitation email sent",
+                "emailFailed": "Invitation created, but email delivery failed",
+                "revoked": "Invitation revoked",
+                "removed": "Participant removed"
+            }
+        },
+        "invitation": {
+            "eyebrow": "Competition invitation",
+            "title": "You have been invited to compete",
+            "description": "Accept the invitation to join this competition with your MLCompete account.",
+            "unavailableTitle": "This invitation is unavailable",
+            "unavailableDescription": "The link may have expired, been revoked, or already been used.",
+            "checking": "Checking the invitation securely…",
+            "retry": "Try again",
+            "browseCompetitions": "Browse competitions",
+            "competition": "Competition",
+            "organizer": "Organizer",
+            "recipient": "Recipient",
+            "expires": "Expires",
+            "status": "Status: {status}",
+            "accept": "Accept and join",
+            "accepting": "Joining…",
+            "signIn": "Sign in to accept",
+            "errors": {
+                "unavailable": "This invitation can no longer be accepted.",
+                "generic": "We could not open this invitation."
+            }
+        }
+    }
+}

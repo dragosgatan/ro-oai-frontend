@@ -1,0 +1,55 @@
+# Dependencies and generated output
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local environment and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Logs and caches
+*.log
+.cache/
+.npm/
+.turbo/
+.vercel/
+.DS_Store
+
+# Private AI/tool configuration
+AGENTS.md
+CLAUDE.md
+.agents/
+.codex/
+.cursor/
+.junie/
+.kiro/
+.mcp.json
+
+# Private deployment and release material
+Dockerfile
+docker-compose*.yml
+docker-compose*.yaml
+kubernetes/
+infra/
+deploy/
+terraform/
+helm/
+charts/
+public/downloads/
+*.AppImage
+*.deb
+*.dmg
+*.exe
+*.msi

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgSpeed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#b91c1c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#bgSpeed)"/>
+  <circle cx="32" cy="32" r="26" fill="#fff" fill-opacity="0.2"/>
+  <!-- Lightning bolt -->
+  <path d="M36 14L22 34h10l-4 16 18-22H34z" fill="#fef3c7"/>
+  <path d="M34 16L24 32h8l-3 12 14-18H33z" fill="#fcd34d"/>
+  <!-- Speed lines -->
+  <path d="M12 28h6M10 32h8M12 36h6" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <text x="32" y="58" text-anchor="middle" fill="#fff" font-size="6" font-weight="bold">FAST</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgEarly" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#bgEarly)"/>
+  <circle cx="32" cy="32" r="26" fill="#fff" fill-opacity="0.3"/>
+  <!-- Sun -->
+  <circle cx="32" cy="20" r="8" fill="#fef3c7"/>
+  <path d="M32 8v4M32 28v4M20 20h4M40 20h4M24 12l2 2M40 12l-2 2M24 28l2-2M40 28l-2-2" stroke="#fef3c7" stroke-width="2" stroke-linecap="round"/>
+  <!-- Bird -->
+  <ellipse cx="32" cy="40" rx="10" ry="8" fill="#fef3c7"/>
+  <circle cx="36" cy="38" r="2" fill="#92400e"/>
+  <path d="M42 40l6-2" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M22 42c-4 1-6 4-6 4" stroke="#fef3c7" stroke-width="2" stroke-linecap="round"/>
+  <text x="32" y="58" text-anchor="middle" fill="#fff" font-size="5" font-weight="bold">EARLY</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgNight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a"/>
+      <stop offset="100%" style="stop-color:#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#bgNight)"/>
+  <circle cx="32" cy="32" r="26" fill="#fff" fill-opacity="0.1"/>
+  <!-- Moon -->
+  <path d="M48 16c-8 0-14 6-14 14s6 14 14 14c-2 1-4 2-6 2-9 0-16-7-16-16s7-16 16-16c2 0 4 1 6 2z" fill="#fef3c7"/>
+  <!-- Stars -->
+  <circle cx="18" cy="18" r="1.5" fill="#fef3c7"/>
+  <circle cx="24" cy="12" r="1" fill="#fef3c7"/>
+  <circle cx="14" cy="28" r="1" fill="#fef3c7"/>
+  <!-- Owl -->
+  <ellipse cx="32" cy="44" rx="12" ry="10" fill="#6b7280"/>
+  <circle cx="28" cy="42" r="4" fill="#fef3c7"/>
+  <circle cx="36" cy="42" r="4" fill="#fef3c7"/>
+  <circle cx="28" cy="42" r="2" fill="#1e1b4b"/>
+  <circle cx="36" cy="42" r="2" fill="#1e1b4b"/>
+  <path d="M30 48l2 2 2-2" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="32" y="60" text-anchor="middle" fill="#fff" font-size="5" font-weight="bold">NIGHT</text>
+</svg>

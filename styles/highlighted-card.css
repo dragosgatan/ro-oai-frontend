@@ -1,0 +1,70 @@
+/**
+ * Highlighted Card Animation Styles - Style 5: Mystic Mist
+ * Requirements: 3.1, 3.4, 4.2, 4.3
+ */
+
+/* Base highlighted card */
+.highlighted-card {
+    position: relative !important;
+    border-radius: 12px !important;
+    padding: 2px !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%) !important;
+    border: none !important;
+}
+
+/* First glow layer */
+.highlighted-card::before {
+    content: '' !important;
+    position: absolute !important;
+    inset: -8px !important;
+    border-radius: 16px !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%) !important;
+    filter: blur(20px) !important;
+    opacity: 0.5 !important;
+    z-index: -1 !important;
+    animation: mist-float 4s ease-in-out infinite !important;
+}
+
+/* Second glow layer */
+.highlighted-card::after {
+    content: '' !important;
+    position: absolute !important;
+    inset: -4px !important;
+    border-radius: 16px !important;
+    background: linear-gradient(225deg, #f093fb 0%, #764ba2 50%, #667eea 100%) !important;
+    filter: blur(10px) !important;
+    opacity: 0.3 !important;
+    z-index: -1 !important;
+    animation: mist-float 4s ease-in-out infinite reverse !important;
+}
+
+/* Inner card content */
+.highlighted-card-inner {
+    background: hsl(var(--card)) !important;
+    border-radius: 10px !important;
+    height: 100% !important;
+    width: 100% !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+@keyframes mist-float {
+    0%,
+    100% {
+        transform: translateY(0) scale(1);
+        opacity: 0.5;
+    }
+    50% {
+        transform: translateY(-5px) scale(1.02);
+        opacity: 0.8;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .highlighted-card::before,
+    .highlighted-card::after {
+        animation: none !important;
+        transform: scale(1) !important;
+    }
+}

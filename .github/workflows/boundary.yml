@@ -1,0 +1,66 @@
+name: Public contribution boundary
+
+on:
+    pull_request_target:
+        types:
+            - opened
+            - synchronize
+            - reopened
+            - edited
+
+permissions:
+    contents: read
+    pull-requests: read
+
+concurrency:
+    group: public-boundary-${{ github.event.pull_request.number }}
+    cancel-in-progress: true
+
+jobs:
+    protected-paths:
+        if: github.event.pull_request.base.ref == 'main'
+        runs-on: ubuntu-latest
+        timeout-minutes: 5
+        steps:
+            - name: Reject changes to public governance files
+              env:
+                  GH_TOKEN: ${{ github.token }}
+                  PR_NUMBER: ${{ github.event.pull_request.number }}
+              run: |
+                  set -euo pipefail
+                  IFS=$'\t' read -r base_ref head_ref head_repository author_login author_type <<< "$(
+                    gh api "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER" \
+                      --jq '[.base.ref, .head.ref, .head.repo.full_name, .user.login, .user.type] | @tsv'
+                  )"
+                  if [[ "$base_ref" != 'main' ]]; then
+                    echo "The public contribution boundary only accepts pull requests targeting main." >&2
+                    exit 1
+                  fi
+                  trusted_mirror_update=false
+                  if [[ \
+                    "$head_ref" == 'mirror/private-main' &&
+                    "$head_repository" == "$GITHUB_REPOSITORY" &&
+                    "$author_login" == 'ro-oai-public-mirror[bot]' &&
+                    "$author_type" == 'Bot'
+                  ]]; then
+                    trusted_mirror_update=true
+                  fi
+
+                  encoded_paths="$(
+                    gh api --paginate \
+                      "repos/$GITHUB_REPOSITORY/pulls/$PR_NUMBER/files?per_page=100" \
+                      --jq '.[] | (.filename, .previous_filename) | select(. != null) | @base64'
+                  )"
+
+                  while IFS= read -r encoded_path; do
+                    changed_path="$(printf '%s' "$encoded_path" | base64 --decode)"
+                    case "$changed_path" in
+                      .github/*|.gitignore|README.md|scripts/validate-public-repository.mjs)
+                        if [[ "$trusted_mirror_update" == true ]]; then
+                          continue
+                        fi
+                        echo "Public governance files are maintained by repository owners." >&2
+                        exit 1
+                        ;;
+                    esac
+                  done <<< "$encoded_paths"
